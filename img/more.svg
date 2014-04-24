@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="divcsster.svg"
+   inkscape:version="0.48.3.1 r9886"
+   version="1.1"
+   id="svg2"
+   height="512"
+   width="512">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="284.24782"
+     inkscape:cy="229.83209"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs4">
+    <filter
+       id="filter3884"
+       inkscape:label="Fancy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Smooth colorized contour which allows desaturation and hue rotation"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3886"
+         stdDeviation="5"
+         result="result1" />
+      <feComposite
+         id="feComposite3888"
+         in2="result1"
+         operator="arithmetic"
+         k2="2"
+         in="result1" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-540.36218)">
+    <rect
+       style="fill:#006828;fill-opacity:1;fill-rule:evenodd;stroke:#007100;stroke-width:8.10499953999999789;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2997"
+       width="510.19547"
+       height="510.19547"
+       x="0.90227503"
+       y="-1051.46"
+       transform="scale(1,-1)" />
+    <g
+       id="g3053"
+       transform="matrix(2.2186687,0,0,2.2186687,257.85715,793.42857)"
+       inkscape:label="Gear24"
+       style="fill:#ffffff;stroke:none" />
+    <g
+       id="g4011"
+       transform="matrix(6.939124,0,0,6.939124,256.14053,791.42238)"
+       inkscape:label="Gear8"
+       style="fill:#ffffff;stroke:none" />
+    <g
+       id="g3878"
+       style="filter:url(#filter3884);opacity:0.76">
+      <text
+         xml:space="preserve"
+         style="font-size:157.91510009999996100px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00dd00;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Bold"
+         x="27.340952"
+         y="695.41302"
+         id="text3822"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3824"
+           x="27.340952"
+           y="695.41302">MORE</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3874"
+         y="1010.9883"
+         x="172.5192"
+         style="font-size:359.66580199999998513px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00dd00;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Bold"
+         xml:space="preserve"><tspan
+           y="1010.9883"
+           x="172.5192"
+           id="tspan3876"
+           sodipodi:role="line">?</tspan></text>
+    </g>
+  </g>
+</svg>

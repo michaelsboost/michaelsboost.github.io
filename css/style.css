@@ -1,0 +1,82 @@
+@import url("normalize.css");
+@import url("fonts/font-awesome.css");
+
+*, *:focus, *:active { outline: none; }
+
+body {
+  position:absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  background-image: url("http://echomon.co.uk/wp-content/uploads/2013/03/Earth-at-Night-From-Space.jpg");
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #000;
+  font: 300 16px/1.5 'museo-sans', 'Open Sans', sans-serif;
+  color: rgb(255,255,255);
+  text-align: center;
+}
+
+a {
+  font-family: 'museo-sans', 'Open Sans', sans-serif;
+  color: rgb(255,255,255);
+    -webkit-transition: all 300ms ease-in-out;
+     -moz-transition: all 300ms ease-in-out;
+      -ms-transition: all 300ms ease-in-out;
+       -o-transition: all 300ms ease-in-out;
+          transition: all 300ms ease-in-out;
+}
+a:hover { text-shadow: 0 0 12px #fff; }
+a:active { text-shadow: 0 0 6px #000; }
+
+/* Trapezoid Background */
+.platform {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  width: 100%;
+}
+
+/* Content Area */
+.demo, .demo * {
+  color: rgb(255,255,255);
+  background-color: rgba(0,0,0,0);
+}
+
+.elm {
+  display: inline-block;
+  position: relative;
+  border-radius: 1em;
+  vertical-align: middle;
+  width: 75%;
+  padding: 1em;
+  margin: 25px auto;
+}
+
+.shorten { transform: scale(0); }
+.apps { overflow-x: auto; overflow-y: hidden; }
+.apps img { width:25%; }
+
+#description a { padding:0 1em; font-size: 1.25em; }
+.noline { text-decoration:none; }
+.hscroll { display:inline-block; white-space:nowrap; }
+
+/* Custom Webkit Scrollbar */
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+::-webkit-scrollbar-button {
+    width: 2px;
+    height: 2px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}   

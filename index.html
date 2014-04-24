@@ -1,75 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Mikethedj4.github.io by mikethedj4</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<head>
+<meta charset="UTF-8">
+<title>MICH&#x2D60;&#x2D49;&#x004C;'s Delivery</title>
+<meta name='Description' content="Learning through technical, physical, and psychological means.">
+<meta name="viewport" content="initial-scale=1.0">
+<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+<link rel="SHORTCUT ICON" href="favicon.ico">
+<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="css/examples.css" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/_dependent/greensock/TweenMax.min.js"></script>
+<script type="text/javascript" src="js/_dependent/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/_examples/modernizr.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollmagic.js"></script>
+<script type="text/javascript" src="js/jquery.scrollmagic.debug.js"></script>
+<script type="text/javascript" src="js/_mobile/iscroll.js"></script>
+<script src="js/index.js"></script>
+</head>
+<body>
+<img class="platform" src="assets/trapezoid.svg" />
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/mikethedj4">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
-
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>Mikethedj4.github.io</h1>
-          <p></p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/mikethedj4">mikethedj4</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+<div class="scrollContent">
+    <section id="titlechart">
+        <div id="description">
+            <h1>Greetings and salutations!</h1>
+            <h2>The name is Michael Schwartz</h2>
+            <h6>Learning through technical, physical, and psychological means.</h6>
+            <a href="http://youtube.com/mikethedj4" target="_blank"><i class='fa fa-youtube'></i></a>
+            <a href="http://facebook.com/mikethedj4" target="_blank"><i class='fa fa-facebook'></i></a>
+            <a href="http://twitter.com/mikethedj4" target="_blank"><i class='fa fa-twitter'></i></a>
+            <a href="http://plus.google.com/115267670001822188181/posts" target="_blank"><i class='fa fa-google-plus'></i></a>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BSYGA2RB5ZJCC"><i class='fa fa-money'></i></a>
         </div>
+        <script>
+            var controller;
+            $(document).ready(function($) {
+                // init controller
+                controller = new ScrollMagic();
+            });
+        </script>
+    </section>
+    <section class="demo">
+        <div class="hscroll programs" id="hscroll">
+          <div id="trigger1" class="spacer s1"></div>
+          <div class="apps elm shorten">
+            <a class="noline" href="http://camdesk.sf.net/" target="_blank">
+              <img src="assets/camdesk.svg">
+            </a>
+            <a class="noline" href="http://htmlonlivedebugger.sf.net/" target="_blank">
+              <img src="assets/html-onlive-debugger.svg">
+            </a>
+            <a class="noline" href="http://mmd.sf.net/" target="_blank">
+              <img src="assets/mmd.svg">
+            </a>
+            <a class="noline" href="dev/" target="_blank">
+              <img src="assets/more.svg">
+            </a>
+            <a class="noline" href="http://mikethedj4.deviantart.com/" target="_blank">
+              <img src="assets/deviantart.svg">
+            </a>
+          </div>
+        </div>
+        <div class="spacer s2"></div>
+        <script>
+            $(document).ready(function($) {
+                // build tween
+                var tween = TweenMax.to(".apps", 0.5, {scale: 1});
 
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+                // build scene
+                var scene = new ScrollScene({triggerElement: "#trigger1"})
+                                .setTween(tween)
+                                .addTo(controller);
+            });
+        </script>
+    </section>
+    <section class="demo">
+        <div id="trigger2" class="spacer s1"></div>
+        <div class="livestream elm shorten">
+          <iframe src="//www.ustream.tv/embed/2666290?wmode=direct" style="border: 0 none transparent;" frameborder="no" width="480" height="302"></iframe>
+          <iframe src="//www.ustream.tv/socialstream/2666290" style="border: 0 none transparent;" frameborder="no" width="320" height="302"></iframe><br />
+          Looking for a web designer? Maybe you're looking for my <a href="http://www.ustream.tv/channel/mikethedj4" target="_blank">podcasts</a>.<br />
+          None of the above? Maybe you're looking for my <a href="http://www.youtube.com/user/mikethedj4/playlists" target="_blank">tutorials</a>?
+        </div>
+        <div class="spacer s2"></div>
+        <script>
+            $(document).ready(function($) {
+                // build tween
+                var tween = TweenMax.to(".livestream", 0.5, {backgroundColor: "#06f", scale: 1});
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+                // build scene
+                var scene = new ScrollScene({triggerElement: "#trigger2"})
+                                .setTween(tween)
+                                .addTo(controller);
+            });
+        </script>
+    </section>
+    <div class="spacer s2"></div>
+</div>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+<script type='text/javascript'>
+(function() {
+    function scrollMenu(e) {
+        e = window.event || e;
+        var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+        document.getElementById('hscroll').scrollLeft -= (delta*40); // Multiplied by 40
+        e.preventDefault();
+    }
+    if (document.getElementById('hscroll').addEventListener) {
+        // IE9, Chrome, Safari, Opera
+        document.getElementById('hscroll').addEventListener('mousewheel', scrollMenu, false);
+        // Firefox
+        document.getElementById('hscroll').addEventListener('DOMMouseScroll', scrollMenu, false);
+    } else {
+        // IE 6/7/8
+        document.getElementById('hscroll').attachEvent('onmousewheel', scrollMenu);
+    }
+})();
+</script>
+</body>
 </html>
