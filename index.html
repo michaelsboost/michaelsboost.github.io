@@ -3,120 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <title>MICH&#x2D60;&#x2D49;&#x004C;'s Delivery</title>
-<meta name='Description' content="Learning through technical, physical, and psychological means.">
 <meta name="viewport" content="initial-scale=1.0">
 <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
 <link rel="SHORTCUT ICON" href="favicon.ico">
-<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-<link rel="stylesheet" href="css/examples.css" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="js/_dependent/greensock/TweenMax.min.js"></script>
-<script type="text/javascript" src="js/_dependent/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="js/_examples/modernizr.custom.min.js"></script>
-<script type="text/javascript" src="js/jquery.scrollmagic.js"></script>
-<script type="text/javascript" src="js/jquery.scrollmagic.debug.js"></script>
-<script type="text/javascript" src="js/_mobile/iscroll.js"></script>
-<script src="js/index.js"></script>
+<style type="text/css">
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+}
+</style>
 </head>
 <body>
-<img class="platform" src="assets/trapezoid.svg" />
-
-<div class="scrollContent">
-    <section id="titlechart">
-        <div id="description">
-            <h1>Greetings and salutations!</h1>
-            <h2>The name is Michael Schwartz</h2>
-            <h6>Learning through technical, physical, and psychological means.</h6>
-            <a href="http://youtube.com/mikethedj4" target="_blank"><i class='fa fa-youtube'></i></a>
-            <a href="http://facebook.com/mikethedj4" target="_blank"><i class='fa fa-facebook'></i></a>
-            <a href="http://twitter.com/mikethedj4" target="_blank"><i class='fa fa-twitter'></i></a>
-            <a href="http://plus.google.com/115267670001822188181/posts" target="_blank"><i class='fa fa-google-plus'></i></a>
-            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BSYGA2RB5ZJCC"><i class='fa fa-money'></i></a>
-        </div>
-        <script>
-            var controller;
-            $(document).ready(function($) {
-                // init controller
-                controller = new ScrollMagic();
-            });
-        </script>
-    </section>
-    <section class="demo">
-        <div class="hscroll programs" id="hscroll">
-          <div id="trigger1" class="spacer s1"></div>
-          <div class="apps elm shorten">
-            <a class="noline" href="http://camdesk.sf.net/" target="_blank">
-              <img src="assets/camdesk.svg">
-            </a>
-            <a class="noline" href="http://htmlonlivedebugger.sf.net/" target="_blank">
-              <img src="assets/html-onlive-debugger.svg">
-            </a>
-            <a class="noline" href="http://mmd.sf.net/" target="_blank">
-              <img src="assets/mmd.svg">
-            </a>
-            <a class="noline" href="dev/" target="_blank">
-              <img src="assets/more.svg">
-            </a>
-            <a class="noline" href="http://mikethedj4.deviantart.com/" target="_blank">
-              <img src="assets/deviantart.svg">
-            </a>
-          </div>
-        </div>
-        <div class="spacer s2"></div>
-        <script>
-            $(document).ready(function($) {
-                // build tween
-                var tween = TweenMax.to(".apps", 0.5, {scale: 1});
-
-                // build scene
-                var scene = new ScrollScene({triggerElement: "#trigger1"})
-                                .setTween(tween)
-                                .addTo(controller);
-            });
-        </script>
-    </section>
-    <section class="demo">
-        <div id="trigger2" class="spacer s1"></div>
-        <div class="livestream elm shorten">
-          <iframe src="//www.ustream.tv/embed/2666290?wmode=direct" style="border: 0 none transparent;" frameborder="no" width="480" height="302"></iframe>
-          <iframe src="//www.ustream.tv/socialstream/2666290" style="border: 0 none transparent;" frameborder="no" width="320" height="302"></iframe><br />
-          Looking for a web designer? Maybe you're looking for my <a href="http://www.ustream.tv/channel/mikethedj4" target="_blank">podcasts</a>.<br />
-          None of the above? Maybe you're looking for my <a href="http://www.youtube.com/user/mikethedj4/playlists" target="_blank">tutorials</a>?
-        </div>
-        <div class="spacer s2"></div>
-        <script>
-            $(document).ready(function($) {
-                // build tween
-                var tween = TweenMax.to(".livestream", 0.5, {backgroundColor: "#06f", scale: 1});
-
-                // build scene
-                var scene = new ScrollScene({triggerElement: "#trigger2"})
-                                .setTween(tween)
-                                .addTo(controller);
-            });
-        </script>
-    </section>
-    <div class="spacer s2"></div>
-</div>
-
-<script type='text/javascript'>
-(function() {
-    function scrollMenu(e) {
-        e = window.event || e;
-        var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
-        document.getElementById('hscroll').scrollLeft -= (delta*40); // Multiplied by 40
-        e.preventDefault();
-    }
-    if (document.getElementById('hscroll').addEventListener) {
-        // IE9, Chrome, Safari, Opera
-        document.getElementById('hscroll').addEventListener('mousewheel', scrollMenu, false);
-        // Firefox
-        document.getElementById('hscroll').addEventListener('DOMMouseScroll', scrollMenu, false);
-    } else {
-        // IE 6/7/8
-        document.getElementById('hscroll').attachEvent('onmousewheel', scrollMenu);
-    }
-})();
-</script>
+  <div class="container">
+    <iframe src="http://michaelsdelivery.tk/" frameborder="0"></iframe>
+  </div>
 </body>
 </html>
