@@ -1,82 +1,222 @@
-@import url("normalize.css");
-@import url("fonts/font-awesome.css");
+@import url("imports.css");
 
-*, *:focus, *:active { outline: none; }
-
+/* Global Settings */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 body {
-  position:absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
-  background-image: url("http://echomon.co.uk/wp-content/uploads/2013/03/Earth-at-Night-From-Space.jpg");
-  background-position: top center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: #000;
-  font: 300 16px/1.5 'museo-sans', 'Open Sans', sans-serif;
-  color: rgb(255,255,255);
-  text-align: center;
+  font: 300 15px/1.5 'museo-sans', 'Open Sans', sans-serif;
+  color: #eef;
+  background: rgb(237, 189, 153);
 }
-
 a {
-  font-family: 'museo-sans', 'Open Sans', sans-serif;
-  color: rgb(255,255,255);
-    -webkit-transition: all 300ms ease-in-out;
-     -moz-transition: all 300ms ease-in-out;
-      -ms-transition: all 300ms ease-in-out;
-       -o-transition: all 300ms ease-in-out;
-          transition: all 300ms ease-in-out;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
 }
-a:hover { text-shadow: 0 0 12px #fff; }
-a:active { text-shadow: 0 0 6px #000; }
+a:active {
+  outline: 0;
+}
+h1 {
+  margin: 0;
+  color: #6af;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.hide, .menu, .connect, .share {
+  display: none;
+}
+.hidden {
+  position: absolute;
+  top: -9999999px;
+  left: -9999999px;
+  visibility: hidden;
+  opacity: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
 
-/* Trapezoid Background */
-.platform {
-  position: fixed;
-  bottom: 0; left: 0; right: 0;
+/* Navigation */
+.navbar, .menu, .connect, .share {
+  background: #000;
+}
+.navbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 1px solid #00aeef;
+  font: 20px arial;
+  color: #fff;
+  text-align: right;
+  padding: 15px;
+}
+.navbar a {
+  padding: 15px;
+  font-size: 24px;
+}
+.navbar a:hover {
+  color: #00eeef;
+}
+.navbar a:active, .navbar a:visited, .active, a.active:hover,
+.menu a:hover, .connect a:hover, .share a:hover {
+  color: #00aeef!important;
+}
+#donate {
+  border-left: 1px solid #00aeef;
+}
+.head {
+  font-family: 'Orbitron', latin;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px 0 0 15px!important;
+}
+.menu a, .connect a, .share a {
+  display: block;
+  padding: 15px;
+  font-size: 24px;
+}
+.menu, .connect, .share {
+  position: absolute;
+  bottom: 54px;
+}
+
+/* Display Area */
+.display {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 54px;
+  overflow: auto;
+}
+.display a {
+  text-decoration: underline;
+}
+.introduction {
+  cursor: default;
+  text-align: center;
+  background: #fff;
+  background: -moz-radial-gradient(center, ellipse cover, #fff 0%, #f6f6f6 47%, #ededed 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #fff), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
+  background: -webkit-radial-gradient(center, ellipse cover, #fff 0%, #f6f6f6 47%, #ededed 100%);
+  background: -o-radial-gradient(center, ellipse cover, #fff 0%, #f6f6f6 47%, #ededed 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #fff 0%, #f6f6f6 47%, #ededed 100%);
+  background: radial-gradient(ellipse at center, #fff 0%, #f6f6f6 47%, #ededed 100%);
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100, finishopacity=90, style=2);
+  color: #000;
+  font-family: "Numans", latin;
+}
+.introduction h1, .introduction h2 {
+  color: #6af;
+  font-weight: normal;
+  text-shadow: -2px -2px 2px #fff, 0 0 2px #000;
+}
+.collaboration {
+  text-align: center;
+  background: #6af;
+  padding: 26px 2em;
+}
+.collaboration h1 {
+  padding-bottom: .25em;
+  margin-bottom: 1em;
+  color: #adf;
+  border-bottom: 1px solid #adf;
+  text-shadow: -1px -1px 1px #369, 0 0 2px #fff;
+}
+.services {
+  text-align: center;
+  background: #FFD4B1;
+  padding: 26px 2em;
+  color: #000;
+}
+.services h1 {
+  color: #CBAA90;
+  padding-bottom: .25em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #000;
+  text-shadow: -1px -1px 1px #369, 0 0 2px #fff;
+}
+.gallery {
+  text-align: center;
+  background: #B5F2C5;
+  color: #000;
+}
+.gallery h1 {
+  padding: 26px 2em;
+  color: #90CB9B;
+  border-bottom: 1px solid #000;
+  text-shadow: -1px -1px 1px #369, 0 0 2px #fff;
+}
+.livechat {
+  text-align: center;
+  background: #FFD4B1;
+  color: #000;
+}
+.livechat h1 {
+  color: #CBAA90;
+  border-bottom: 1px solid #000;
+  text-shadow: -1px -1px 1px #369, 0 0 2px #fff;
+}
+.livechat a {
+  color: #a66;
+}
+.livechat a:hover {
+  color: #000;
+}
+.resetgridframe {
+  width: 48%;
+}
+.resetframe {
+  width: 90%;
+}
+
+/* Grids*/
+article {
+  display: table;
   width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
 }
-
-/* Content Area */
-.demo, .demo * {
-  color: rgb(255,255,255);
-  background-color: rgba(0,0,0,0);
-}
-
-.elm {
-  display: inline-block;
-  position: relative;
-  border-radius: 1em;
+section {
+  width: 50%;
+  display: table-cell;
   vertical-align: middle;
-  width: 75%;
-  padding: 1em;
-  margin: 25px auto;
+}
+section img {
+  width: 80%;
+}
+.me {
+  max-width: 278px;
 }
 
-.shorten { transform: scale(0); }
-.apps { overflow-x: auto; overflow-y: hidden; }
-.apps img { width:25%; }
-
-#description a { padding:0 1em; font-size: 1.25em; }
-.noline { text-decoration:none; }
-.hscroll { display:inline-block; white-space:nowrap; }
-
-/* Custom Webkit Scrollbar */
-::-webkit-scrollbar {
-    width: 2px;
-    height: 2px;
+/* Breakpoints for Responsive Design */
+@media all and (max-width:600px) {
+  .me {
+    max-width: 50%;
+  }
 }
-::-webkit-scrollbar-button {
-    width: 2px;
-    height: 2px;
+@media all and (max-width:545px) {
+  .head {
+    display: none;
+  }
+  .navbar {
+    text-align: center;
+  }
+  .navbar a {
+    padding: 15px;
+    margin: 0 auto;
+  }
+  #donate {
+    border-left: 0;
+  }
 }
-::-webkit-scrollbar-track {
-    background: transparent;
-    border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.75);
-    border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: #fff;
-}   
