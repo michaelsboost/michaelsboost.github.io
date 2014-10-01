@@ -119,18 +119,6 @@ h1 {
   font-weight: normal;
   text-shadow: -2px -2px 2px #fff, 0 0 2px #000;
 }
-.collaboration {
-  text-align: center;
-  background: #6af;
-  padding: 26px 2em;
-}
-.collaboration h1 {
-  padding-bottom: .25em;
-  margin-bottom: 1em;
-  color: #adf;
-  border-bottom: 1px solid #adf;
-  text-shadow: -1px -1px 1px #369, 0 0 2px #fff;
-}
 .services {
   text-align: center;
   background: #FFD4B1;
@@ -175,6 +163,18 @@ h1 {
 }
 .livechat a:hover {
   color: #000;
+}
+.collaboration {
+  text-align: center;
+  background: #6af;
+  padding: 26px 2em;
+}
+.collaboration h1 {
+  padding-bottom: .25em;
+  margin-bottom: 1em;
+  color: #adf;
+  border-bottom: 1px solid #adf;
+  text-shadow: -1px -1px 1px #369, 0 0 2px #fff;
 }
 .resetgridframe {
   width: 48%;
