@@ -157,10 +157,15 @@ h1 {
 }
 .livechat {
   text-align: center;
-  background: #FFD4B1;
+  /* background: #FFD4B1; */
+  background: #B5F2C5;
   color: #000;
 }
+.chatTitle {
+  padding: 26px 2em;
+}
 .livechat h1 {
+  padding: 0 2em;
   color: #CBAA90;
   border-bottom: 1px solid #000;
   text-shadow: -1px -1px 1px #369, 0 0 2px #fff;
