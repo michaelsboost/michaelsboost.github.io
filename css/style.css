@@ -125,12 +125,25 @@ h1 {
   padding: 26px 2em;
   color: #000;
 }
-.services h1 {
+.services-separator {
+  text-align: center;
   color: #CBAA90;
   padding-bottom: .25em;
   margin-bottom: 1em;
   border-bottom: 1px solid #000;
   text-shadow: -1px -1px 1px #369, 0 0 2px #fff;
+}
+.services p {
+  color: #000;
+}
+#prices {
+  text-align: left;
+}
+#prices a {
+  color: #000;
+}
+#prices a:hover {
+  color: #960;
 }
 .gallery {
   text-align: center;

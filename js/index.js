@@ -54,7 +54,7 @@ $(document).ready(function() {
   var win = $(window),
         foo = $(".typer");
 
-  foo.typer(["<h1>Greetings</h1>", "My name is...", "<h2>Michael Schwartz</h2>", "<img class='me' src='img/avatar.png'><ol><li>Web UI/UX Designer</li><li>Web Developer</li></ol>"], {
+  foo.typer(["<h1>Greetings</h1>", "My name is...", "<h2>Michael Schwartz</h2>", "<img class='me' src='img/avatar.png'><br /> Designer/Developer"], {
       endless: false
   });
 
@@ -69,6 +69,9 @@ $(document).ready(function() {
       fontSize: fontSize * .2 + "px"
     });
     $(".services").css({
+      fontSize: fontSize * .2 + "px"
+    });
+    $(".services span").css({
       fontSize: fontSize * .3 + "px"
     });
     $(".livechat").css({
