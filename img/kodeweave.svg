@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="851"
+   height="485"
+   viewBox="0 0 680.79992 387.99995"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="kodeweave.svg">
+  <metadata
+     id="metadata9">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview5"
+     showgrid="false"
+     inkscape:zoom="0.60682612"
+     inkscape:cx="326.86113"
+     inkscape:cy="239.11642"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g2983"
+     transform="matrix(0.94726564,0,0,0.94726564,146.39998,20.460929)">
+    <rect
+       ry="117.18291"
+       rx="0"
+       y="-21.599987"
+       x="1.5655922e-016"
+       height="409.59995"
+       width="409.59995"
+       id="rect2986"
+       style="fill:#333333;fill-opacity:1;stroke:none" />
+    <path
+       sodipodi:nodetypes="cccccccccccc"
+       style="fill:#6ab5ec;fill-opacity:1;stroke:none"
+       inkscape:connector-curvature="0"
+       d="m 179.80508,69.788093 0,71.423727 72.05085,-70.198647 72.05085,-1.22508 -93.14983,110.847457 104.23457,121.9322 -79.4199,-0.37356 -75.76654,-82.13492 0,82.50848 -77.59322,0 0,-232.779657 z"
+       id="Selection" />
+  </g>
+</svg>
