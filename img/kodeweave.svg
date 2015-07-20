@@ -12,7 +12,7 @@
    viewBox="0 0 680.79992 387.99995"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="kodeweave.svg">
   <metadata
      id="metadata9">
@@ -22,6 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -36,22 +37,22 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="697"
+     inkscape:window-height="405"
      id="namedview5"
      showgrid="false"
      inkscape:zoom="0.60682612"
-     inkscape:cx="326.86113"
-     inkscape:cy="239.11642"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:cx="74.729597"
+     inkscape:cy="204.46392"
+     inkscape:window-x="150"
+     inkscape:window-y="150"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <g
      id="g2983"
      transform="matrix(0.94726564,0,0,0.94726564,146.39998,20.460929)">
     <rect
-       ry="117.18291"
+       ry="0"
        rx="0"
        y="-21.599987"
        x="1.5655922e-016"
