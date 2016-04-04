@@ -1,16 +1,98 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="851px" height="485px" viewBox="0 0 851 485" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
-    <title>kodeweave copy</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="kodeweave" sketch:type="MSLayerGroup">
-            <g id="g4137" sketch:type="MSShapeGroup">
-                <rect id="Rectangle-2" stroke="#979797" opacity="0" fill="#D8D8D8" x="0" y="0" width="851" height="485"></rect>
-                <rect id="rect4138" fill-opacity="0.94117647" fill="#FFFFFF" x="183" y="0" width="485" height="485"></rect>
-                <path d="M298.48047,242.973614 L298.48047,106.752005 L334.299691,106.752005 L370.11892,106.752005 L370.162968,163.465783 L370.207016,220.179571 L373.14784,216.741461 C374.765381,214.85051 394.161176,189.356201 416.249705,160.087455 L456.410651,106.87155 L499.745742,106.811683 L543.080842,106.751815 L540.878886,109.194027 C539.667806,110.53725 515.335555,139.432887 486.807211,173.406559 C439.171591,230.134603 435.05001,235.35703 436.315794,237.383847 C437.64387,239.510449 546.144811,371.778218 550.641917,376.752812 L552.849718,379.195033 L507.73839,379.195033 L462.627072,379.195033 L417.353203,320.310388 C392.452574,287.923916 371.638221,261.263011 371.099104,261.064019 C370.523308,260.851481 370.118883,285.146798 370.118883,319.948655 L370.118883,379.1951 L334.299653,379.1951 L298.480432,379.1951 L298.480432,242.973491 L298.48047,242.973614 Z" id="path4149" fill="#4D9CFD"></path>
-            </g>
-        </g>
-    </g>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="851px"
+   height="485px"
+   viewBox="0 0 851 485"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="kodeweave.svg">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1076"
+     inkscape:window-height="523"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="0.18213866"
+     inkscape:cx="395.91385"
+     inkscape:cy="-37.625432"
+     inkscape:window-x="92"
+     inkscape:window-y="15"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">kodeweave copy</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="257.3125"
+       x2="0.13404165"
+       y1="257.3125"
+       x1="511.71875"
+       id="linearGradient4282"
+       xlink:href="#linearGradient4276" />
+    <linearGradient
+       id="linearGradient4276">
+      <stop
+         id="stop4278"
+         offset="0"
+         style="stop-color:#fd5d92;stop-opacity:1" />
+      <stop
+         id="stop4280"
+         offset="1"
+         style="stop-color:#ff0000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect
+     style="opacity:0;fill:#d8d8d8;fill-rule:evenodd;stroke:#979797;stroke-width:1"
+     height="485"
+     width="851"
+     y="0"
+     x="0"
+     id="Rectangle-2" />
+  <g
+     id="g4284"
+     transform="matrix(0.94726563,0,0,0.94726563,183,-2.56e-6)">
+    <circle
+       style="opacity:1;fill:url(#linearGradient4282);fill-opacity:1;stroke:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:72, 72;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4270"
+       cx="256"
+       cy="256"
+       r="256" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:72, 72;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 251.06068,58.678272 c -4.56032,0.07035 -20.76061,2.041945 -29.29792,3.655984 -28.34391,5.35862 -66.88081,22.619814 -73.03699,32.719061 -1.89755,3.112935 -1.94616,7.147013 -1.94616,160.817023 0,152.2588 0.0671,157.72464 1.89998,160.73121 5.20599,8.53989 36.72003,23.70934 63.45133,30.54134 9.76572,2.49593 34.33509,6.3448 38.50754,6.03169 2.00388,-0.15036 2.03203,-0.97469 2.28921,-73.09324 0.14558,-40.83759 0.65643,-73.33414 1.16109,-73.83896 1.37751,-1.37795 7.34739,1.88473 10.35752,5.66215 1.46202,1.83468 13.79755,20.65528 27.41774,41.81943 51.44452,79.93847 50.46511,78.47798 53.30494,79.19094 3.32478,0.83474 12.56708,-3.78947 27.57606,-13.78583 14.24338,-9.48646 23.8855,-17.7831 34.81972,-29.96717 11.29502,-12.58615 14.83039,-17.41785 14.83039,-20.25308 0,-1.22009 -14.9706,-24.54033 -33.40133,-52.02846 -18.37057,-27.39837 -34.10107,-51.16876 -34.95828,-52.82696 -0.85723,-1.6582 -1.55693,-4.07335 -1.55693,-5.36519 0,-1.32123 12.48959,-22.29487 28.54584,-47.94352 44.48315,-71.05856 41.93833,-66.29178 38.83081,-72.84247 -2.55755,-5.39136 -15.36262,-19.65809 -26.13129,-29.11587 -11.45459,-10.060191 -35.06413,-25.950276 -39.90612,-26.858934 -2.94154,-0.55201 -3.97519,-0.246788 -5.91766,1.742201 -1.29564,1.326648 -20.35012,32.348303 -42.34048,68.935723 -21.99036,36.5874 -41.06539,67.99167 -42.38665,69.78702 -2.61954,3.55937 -6.73281,6.09306 -8.73463,5.37838 -0.99947,-0.35683 -1.26665,-18.17035 -1.26665,-84.44394 0,-49.513196 -0.37864,-84.219226 -0.9236,-84.556138 -0.11984,-0.0741 -0.53601,-0.102446 -1.18748,-0.09238 z"
+       id="path4260" />
+  </g>
 </svg>

@@ -68,9 +68,6 @@ $(document).ready(function() {
     $(".software").css({
       fontSize: fontSize * .2 + "px"
     });
-    $(".livechat").css({
-      fontSize: fontSize * .3 + "px"
-    });
     $(".software h1, .services h1, .gallery h1").css({
       fontSize: fontSize * .7 + "px"
     });
@@ -79,16 +76,6 @@ $(document).ready(function() {
       'width': $(".resetsvg").width(),
       'height': $(".resetsvg").height()
     });
-
-
-    if ( win.width() < 800 ) {
-        $(".livechat iframe").attr("width", $(".resetframe").width())
-                                        .attr("height", $(".resetframe").height());
-    }
-    else {
-        $(".livechat iframe").attr("width", $(".resetgridframe").width())
-                                        .attr("height", $(".resetgridframe").height());
-    }
 
   }).resize();
 
