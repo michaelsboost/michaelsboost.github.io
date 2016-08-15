@@ -88,6 +88,18 @@ h1 {
   bottom: 54px;
 }
 
+.connect {
+  top: auto;
+  overflow: visible;
+}
+
+@media (max-height: 456px) {
+  .connect {
+    top: 0;
+    overflow: auto;
+  }
+}
+
 /* Display Area */
 .display {
   position: absolute;
