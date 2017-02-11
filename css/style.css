@@ -230,3 +230,11 @@ section img {
     border-left: 0;
   }
 }
+
+@media all and (max-height:516px) {
+  .connect {
+    top: 0;
+    bottom: 55px;
+    overflow: auto;
+  }
+}
