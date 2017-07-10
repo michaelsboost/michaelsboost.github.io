@@ -16,9 +16,7 @@
     <div class="container">	
       <div id="bl-main" class="bl-main">
         <section>
-          <div class="bl-box">
-            <!--<h2 class="bl-icon bl-icon-about">About</h2>-->
-          </div>
+          <a class="bl-box" href="#about"></a>
           <div class="bl-content">
             <h2>About Michael</h2>
             <p>Michael Schwartz is a freelance graphic designer, web ui/ux designer, software developer, independant stock trader and investor.</p>
@@ -37,7 +35,7 @@
           <span class="bl-icon bl-icon-close"></span>
         </section>
         <section id="bl-work-section">
-          <div class="bl-box"></div>
+          <a class="bl-box" href="#service"></a>
           <div class="bl-content">
             <h2>Get in touch</h2>
             <p>
@@ -77,7 +75,7 @@
           <span class="bl-icon bl-icon-close"></span>
         </section>
         <section>
-          <div class="bl-box"></div>
+          <a class="bl-box" href="#work"></a>
           <div class="bl-content">
             <h2>My Works</h2>
             <p>Here's a list of some active projects I'm involved with!</p>
@@ -115,7 +113,7 @@
           <span class="bl-icon bl-icon-close"></span>
         </section>
         <section>
-          <div class="bl-box"></div>
+          <a class="bl-box" href="#blog"></a>
           <div class="bl-content">
             <a class="twitter-timeline" href="https://twitter.com/mikethedj4">Tweets by @mikethedj4</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -245,20 +243,6 @@
     
     <script src="js/jquery.js"></script>
     <script src="js/boxlayout.js"></script>
-    <script>
-      $(function() {
-        Boxlayout.init();
-        
-        $(window).on("load resize", function() {
-          if(window.innerHeight > window.innerWidth){
-            portrait = true;
-            $(".bl-main > section").css("background-size", "cover");
-          } else {
-            portrait = false;
-            $(".bl-main > section").css("background-size", "contain");
-          }
-        });
-      });
-    </script>
+    <script src="js/index.js"></script>
   </body>
 </html>
