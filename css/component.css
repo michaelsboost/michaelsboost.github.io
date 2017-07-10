@@ -92,7 +92,7 @@ a:hover {
 /*  background-color: #FA987D;*/
   background-color: #ebebeb;
   background-image: url("../images/service.png");
-  background-position: bottom center;
+/*  background-position: bottom center;*/
 }
 .bl-main > section:nth-child(3):not(.bl-expand) .bl-box {
 /*  background-color: #72CCA7;*/
