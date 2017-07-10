@@ -608,3 +608,40 @@ svg:hover .letter_mask-m {
   width: 40%;
   max-width: 150px;
 }
+
+.skill {
+  display: grid;
+  background: #fff;
+  padding: 30px;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.skill ul {
+  list-style: none;
+}
+.skill ul li {
+  float: left;
+  box-sizing: border-box;
+  padding: 0 0.75rem;
+  margin-left: 0;
+  color: #444;
+  font-size: 16px;
+  text-align: center;
+}
+.skill ul li img {
+  display: block;
+  max-height: 100px;
+  margin: 12px 0;
+}
+.skill h2 {
+  color: #795548;
+  font-weight: 300;
+  font-size: 2.28rem;
+  line-height: 2.508rem;
+  margin: 1.14rem 0 0.912rem 0;
+  
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
