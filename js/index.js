@@ -5,10 +5,10 @@ $(function() {
   $(window).on("load resize", function() {
     if(window.innerHeight > window.innerWidth){
       // portrait
-      $(".bl-main > section").css("background-size", "cover");
+      $(".bl-main > section > .bl-box").css("background-size", "cover");
     } else {
       // landscape
-      $(".bl-main > section").css("background-size", "contain");
+      $(".bl-main > section > .bl-box").css("background-size", "contain");
     }
   });
   

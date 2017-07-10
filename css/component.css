@@ -507,6 +507,17 @@ section.bl-expand .bl-icon-close {
   width: 140px;
   height: 140px;
   background: #00e1b6;
+  transition: all 300ms linear;
+}
+
+@media all and (max-width:940px) {
+  .logo {
+    margin-top: -43px;
+    margin-left: -43px;
+    width: 86px;
+    height: 86px;
+    background: #00e1b6;
+  }
 }
 
 .cls-1 {
