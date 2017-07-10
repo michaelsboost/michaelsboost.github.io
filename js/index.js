@@ -25,7 +25,7 @@ $(function() {
         window.history.replaceState({}, document.title, clean_uri);
     }
   }
-  $(".bl-icon-close").click(function() {
+  $("[data-clear=hash]").click(function() {
     remove_hash_from_url();
   });
 });
