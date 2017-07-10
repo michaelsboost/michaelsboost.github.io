@@ -2,7 +2,7 @@ $(function() {
   Boxlayout.init();
   
   // Adjust UI for orientation changes
-  $(window).on("load resize", function() {
+  $(window).on("load resize orientationchange", function() {
     if(window.innerHeight > window.innerWidth){
       // portrait
       $(".bl-main > section > .bl-box").css("background-size", "cover");
