@@ -9,6 +9,38 @@ $(window).on("load resize orientationchange", function() {
   }
 });
 
+// Show Lightbox Video Onload
+var playkodeWeave = function() {
+  $.fancybox.open({
+    youtube : {
+      controls : 0,
+      showinfo : 0
+    },
+    src  : 'https://www.youtube.com/embed/F2srMbHHnAw', // Source of the content
+    type : 'iframe' // Content type: image|inline|ajax|iframe|html (optional)
+  });
+};
+var playWebDGap = function() {
+  $.fancybox.open({
+    youtube : {
+      controls : 0,
+      showinfo : 0
+    },
+    src  : 'https://www.youtube.com/embed/esN93ZnA6RY', // Source of the content
+    type : 'iframe' // Content type: image|inline|ajax|iframe|html (optional)
+  });
+};
+var playFiverr = function() {
+  $.fancybox.open({
+    youtube : {
+      controls : 0,
+      showinfo : 0
+    },
+    src  : 'https://www.youtube.com/embed/Oh65SSddz9Y', // Source of the content
+    type : 'iframe' // Content type: image|inline|ajax|iframe|html (optional)
+  });
+};
+
 Boxlayout.init();
 
 // Detect if page has hash when loaded

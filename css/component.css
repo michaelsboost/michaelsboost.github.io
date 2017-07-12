@@ -618,6 +618,10 @@ svg:hover .letter_mask-m {
   width: 40%;
   max-width: 150px;
 }
+.fiverrimg img {
+  width: 100%;
+  max-width: 1024px;
+}
 
 .skill {
   display: grid;
