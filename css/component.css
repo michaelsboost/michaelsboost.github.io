@@ -102,7 +102,8 @@ a:hover {
 .bl-main > section:nth-child(4):not(.bl-expand) .bl-box {
 /*  background-color: #10A296;*/
   background-color: #ddd;
-  background-image: url("../images/blog.png");
+/*  background-image: url("../images/blog.png");*/
+  background-image: url("../images/feed.png");
 }
 
 .bl-box {
