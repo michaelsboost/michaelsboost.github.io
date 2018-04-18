@@ -424,3 +424,8 @@ nav .mbr-section-btn {
 	top: 0;
 	left: -2400px;
 }
+
+/* margin auto */
+.mauto {
+  margin: auto;
+}
