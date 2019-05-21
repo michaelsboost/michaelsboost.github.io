@@ -1702,6 +1702,30 @@ body {
     padding: 0 1rem;
   }
 }
+.cid-rr7HO3u5tR {
+/*  background-image: url("../../../assets/images/mbr-1920x1280-dear.jpg");*/
+/*  background-image: url("../../../assets/images/1-point-perspective-wides.svg");*/
+  background-image: url("../../../assets/images/tetradic-colors.svg");
+}
+.cid-rr7HO3u5tR .mbr-overlay {
+/*
+  background: #ffa0a4;
+  background: linear-gradient(45deg, #ffa0a4, #000000);
+  background: radial-gradient(#ffa0a4, #000000);
+*/
+/*
+  background: #a0d5ff;
+  background: linear-gradient(45deg, #a0d5ff, #000000);
+  background: radial-gradient(#a0d5ff, #000000);
+*/
+  background: #fca0ff;
+  background: linear-gradient(45deg, #fca0ff, #000000);
+  background: radial-gradient(#fca0ff, #000000);
+/*
+}
+.cid-rr7HO3u5tR .mbr-section-title {
+  margin: 0;
+}
 .cid-qznOOShlTD {
   padding-top: 120px;
   padding-bottom: 60px;
