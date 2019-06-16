@@ -3634,3 +3634,28 @@ body {
 #custom-html-2s {
   /* Type valid CSS here */
 }
+
+.frame-column {
+  min-width: 340px;
+  width: 100%;
+  height: 500px;
+  border: 0;
+  overflow: auto;
+}
+.view-instagram {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 20px;
+  padding: 1px 8px 1px 6px;
+  background-color: #1b95e0;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  font: normal normal 500 11px/18px 'Helvetica Neue', Arial, sans-serif;
+}
+.view-instagram:active, .view-instagram:focus, .view-instagram:hover {
+  color: #fff;
+  background-color: #0c7abf;
+}

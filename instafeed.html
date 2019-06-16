@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  <title>Michael Schwartz: Instagram Feed!</title>
+    <style>
+      body{
+        padding-top: 8px;
+      }
+      #instafeed {
+        text-align: center;
+      }
+      #instafeed img {
+        width: 68px;
+        margin: 3px;
+      }
+    </style>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+  </head>
+  <body>
+    <div id="instafeed"></div>
+   
+    <script>
+      var feed = new Instafeed({
+        get: 'user',
+        userId: 5674491897,
+        accessToken: '5674491897.1677ed0.301d52ea2822458393ecd763bbf598ab', // http://instagram.pixelunion.net/
+        target: 'instafeed',
+        limit: 60, // max 60
+        sortBy: 'most-recent',
+        resolution: 'thumbnail',
+        template: '<a class="image" href="{{link}}" target="_blank"><img src="{{image}}"></a>'
+      });
+
+      // initialize feed
+      feed.run();
+    </script>
+  </body>
+</html>

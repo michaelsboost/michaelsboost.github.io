@@ -358,19 +358,7 @@
     </div>
 </section>
 
-<div id="feed-2l" custom-code="true" data-rv-view="89"><script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
-
-<style>
-  #instafeed {
-    width: 340px;
-    height: 500px;
-  }
-  #instafeed img {
-    width: 68px;
-    margin: 3px;
-  }
-</style>
-
+<div id="feed-2l" custom-code="true" data-rv-view="89">
 <div class="container-fluid">
   <div class="row justify-content-center">
     <div class="col-12 col-lg-6 col-md-8 align-center">
@@ -385,22 +373,39 @@
 
 <div id="mikes_posts">
   <div class="container">
-    <div class="row">
-      <div class="box align-center mauto">
+    <div class="row justify-content-center">
+      <div class="card px-3 py-4 col-12 col-md-6 col-lg-4 align-center mauto">
         <h2>Instagram Photos</h2>
         <div class="desc" align="center">
           <br>
+<!--
           <a href="http://instagram.com/michaelsboost" target="_blank" onmouseover="document.MyImage.src='assets/images/instabtn-hover.png';" onmouseout="document.MyImage.src='assets/images/instabtn.png';">
             <img src="assets/images/instabtn.png" name="MyImage">
-          </a>
-          <br><br>
+          </a><br><br>
+-->
+          
+          <a class="view-instagram" title="View on Instagram" href="http://instagram.com/michaelsboost" target="_blank">
+            <i class="mbr-iconfont socicon-instagram socicon" style="position: relative;top: 1px;"></i>
+            <span class="label" id="l">&nbsp;View on Instagram</span>
+          </a><br>
 
-          <div id="instafeed"></div>
+          <iframe class="frame-column" src="instafeed.html" frameborder="0" allowtransparency="true"></iframe>
 
           <div class="clear"></div>
         </div>
       </div>
-      <div class="box align-center mauto">
+      <div class="card px-3 py-4 col-12 col-md-6 col-lg-4 align-center mauto">
+        <h2>Facebook Posts</h2>
+        <div class="desc" align="center">
+          <br>
+          <br>
+
+          <iframe class="frame-column" src="fbfeed.html" frameborder="0" allowtransparency="true"></iframe>
+
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="card px-3 py-4 col-12 col-md-12 col-lg-4 align-center mauto">
         <h2>Recent Tweets</h2>
         <div class="desc" align="center">
           <br>
@@ -410,7 +415,7 @@
           <iframe src="https://michaelsboost.github.io/twitterfeed" width="340" height="500" style="border:none;overflow:auto;" frameborder="0" allowtransparency="true"></iframe>
 -->
          
-          <div style="width: 340px; height: 500px; overflow: auto;">
+          <div class="frame-column">
             <a class="twitter-timeline" href="https://twitter.com/michaelsboost?ref_src=twsrc%5Etfw">Tweets by michaelsboost</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
@@ -418,36 +423,10 @@
           <div class="clear"></div>
         </div>
       </div>
-      <div class="box align-center mauto">
-        <h2>Facebook Posts</h2>
-        <div class="desc" align="center">
-          <br>
-          <br>
-
-          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmichaelsboost&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=270204916706527" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
-
-          <div class="clear"></div>
-        </div>
-      </div>
     </div>
   </div>
 </div>
-
-<script>
-  var feed = new Instafeed({
-    get: 'user',
-    userId: 5674491897,
-    accessToken: '5674491897.1677ed0.301d52ea2822458393ecd763bbf598ab', // http://instagram.pixelunion.net/
-    target: 'instafeed',
-    limit: 16, // max 60
-    sortBy: 'most-recent',
-    resolution: 'thumbnail',
-    template: '<a class="image" href="{{link}}" target="_blank"><img src="{{image}}"></a>'
-  });
-
-  // initialize feed
-  feed.run();
-</script></div>
+</div>
 
 <section class="cid-qAzWwl2kbn" id="social-buttons1-2m" data-rv-view="1340">
     
