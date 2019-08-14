@@ -44,8 +44,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "publishType": "local",
-    "publishPath": "file:///Users/MIchael/Desktop",
-    "screenshot": "screenshot.png"
+    "publishPath": "file:///Users/MIchael/Desktop"
   },
   "pages": {
     "index.html": {
