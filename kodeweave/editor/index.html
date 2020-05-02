@@ -8,7 +8,11 @@
     <meta property="og:description" content="kodeWeave is a realtime coding playground for Markdown, HTML, CSS and Javascript. Similar to JSFiddle and JSBin, but kodeWeave was made specifically to work offline for multiple devices (including mobile)." />
     <meta property="og:image"       content="https://camo.githubusercontent.com/37ac978fcbd71970b6e1baa029de7447608d3392/68747470733a2f2f6d69722d73332d63646e2d63662e626568616e63652e6e65742f70726f6a6563745f6d6f64756c65732f6d61785f313230302f35643439333536343632333039372e356164383365646565303933662e706e67" />
     <script>
-      window.location.href = "https://michaelsboost.github.io/kodeWeave/editor";
+      if (window.location.hash) {
+        window.location.href = "https://michaelsboost.github.io/kodeWeave/editor" + window.location.hash
+      } else {
+        window.location.href = "https://michaelsboost.github.io/kodeWeave/editor"
+      }
     </script>
   </head>
   <body>
