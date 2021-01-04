@@ -17,11 +17,14 @@
     </style>
    <script src="js/instafeed.js"></script>
   </head>
-  <body>
-    <h1>Instagram Feed</h1>
+  <body>=
     <div id="instafeed"></div>
    
     <script>
+      // https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
+      // https://michaelsboost.com/?code=AQDZfQD0ghwaR1v3_7wGBqYKgQASmh_y7PXRMnKly31KBD8p5XnuCUEqs4g_BrMljE2vM8XbQrHZgowji1lk_C_9wnNzELtJang8oRdFhaahhD91b-sb3w14TRqTIxkyW94qIugKmuH3p6faO9UgIYD0ICAd6Tr3hJgybJUwbcEw5vUXR8WvPiRO81zu2C42mxJ0A3iQf8XC2bWamJ8uYLk8XhxXSsY2XjB-6amHDgfAgw#_
+      // https://api.instagram.com/oauth/authorize?client_id=2808395389398821&redirect_uri=https://michaelsboost.com/&scope=user_profile,user_media&response_type=code
+
       var feed = new Instafeed({
         get: 'user',
         userId: 5674491897,
