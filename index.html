@@ -102,11 +102,11 @@
       <div class="container-fluid align-center">
         <div class="row justify-content-md-center">
           <div class="mbr-white col-md-12 col-lg-10">
-
             <div class="row  align-items-center">
               <div class="col-md-8">
                 <h1 class="mbr-section-title align-left py-2 mbr-bold mbr-fonts-style display-1">
-                  MY GIFT TO YOU</h1>
+                  MY GIFT TO YOU
+                </h1>
                 <p class="mbr-text align-left py-2 mbr-fonts-style display-5">
                   Thank you for visiting my website and as a thank you gift I want to give you a free course on beginner software development.</p>
 
@@ -115,10 +115,9 @@
                 </div>
               </div>
 
-              <div class="col-md-3 py-3 ">
-                <!--                        <div class="mbr-media show-modal align-center py-2" data-modal=".modalWindow">-->
-                <div class="mbr-media show-modal align-center py-2" data-open="modalWindow">
-                  <svg viewBox="0 0 512 512" height="100px" fill="#fff">
+              <div class="col-md-3 py-3">
+               <div id="openModal" class="mbr-media show-modal align-center py-2" data-modal=".modalWindow">
+                 <svg viewBox="0 0 512 512" height="100px" fill="#ffffff">
                     <g>
                       <g>
                         <path d="M477.606,128.055C443.431,68.863,388.251,26.52,322.229,8.83C256.208-8.862,187.25,0.217,128.055,34.394    C68.861,68.57,26.52,123.75,8.83,189.772c-17.69,66.021-8.611,134.981,25.564,194.173    C68.568,443.137,123.75,485.48,189.771,503.17c22.046,5.908,44.417,8.83,66.646,8.83c44.339,0,88.101-11.629,127.529-34.393    c59.192-34.175,101.535-89.355,119.225-155.377C520.862,256.207,511.781,187.249,477.606,128.055z M477.429,315.333    c-15.848,59.146-53.78,108.581-106.81,139.197c-53.028,30.617-114.806,38.749-173.952,22.903    c-59.147-15.848-108.581-53.78-139.198-106.81c-30.616-53.028-38.749-114.807-22.9-173.954    C50.418,137.523,88.35,88.09,141.379,57.472c35.325-20.395,74.524-30.812,114.249-30.812c19.91,0,39.959,2.618,59.702,7.909    c59.146,15.848,108.581,53.78,139.197,106.81C485.144,194.408,493.278,256.186,477.429,315.333z"></path>
@@ -135,10 +134,10 @@
                       </g>
                     </g>
                   </svg>
-                </div>
-                <div class="icon-description align-center font-italic pb-3 mbr-fonts-style display-7">
-                  Watch video
-                </div>
+               </div>
+               <div class="icon-description align-center font-italic pb-3 mbr-fonts-style display-7">
+                 Watch video
+               </div>
               </div>
             </div>
           </div>
@@ -149,9 +148,10 @@
           <div class="modalWindow-container">
             <div class="modalWindow-video-container">
               <div class="modalWindow-video">
+<!--                <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1" data-src="https://www.youtube.com/watch?v=kI1YE_qenSU"></iframe>-->
                 <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1" src="thanks.html"></iframe>
               </div>
-              <a class="close" role="button" data-dismiss="modal">
+              <a id="closeModal" class="close" role="button" data-dismiss="modal">
                 <span aria-hidden="true" class="mbri-close mbr-iconfont closeModal"></span>
                 <span class="sr-only">Close</span>
               </a>
@@ -856,36 +856,38 @@
         </div>
       </div>
     </section>
-
+    
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
     <script src="assets/popper/popper.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/smooth-scroll/smooth-scroll.js"></script>
-    <script src="assets/dropdown/js/script.min.js"></script>
-    <script src="assets/touch-swipe/jquery.touch-swipe.min.js"></script>
-    <script src="assets/playervimeo/vimeo_player.js"></script>
-    <script src="assets/typed/typed.min.js"></script>
-    <script src="assets/jarallax/jarallax.min.js"></script>
-    <script src="assets/social-likes/social-likes.js"></script>
+    <script src="assets/smoothscroll/smooth-scroll.js"></script>
     <script src="assets/shopping-cart/minicart.js"></script>
     <script src="assets/shopping-cart/jquery.easing.min.js"></script>
     <script src="assets/shopping-cart/minicart-customizer.js"></script>
+    <script src="assets/dropdown/js/script.min.js"></script>
+    <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+    <script src="assets/playervimeo/vimeo_player.js"></script>
+    <script src="assets/parallax/jarallax.min.js"></script>
+    <script src="assets/sociallikes/social-likes.js"></script>
     <script src="assets/theme/js/script.js"></script>
     <script src="detecthttp.js"></script>
 
     <script>
-      $('[data-open=modalWindow]').click(function() {
+      openModal.onclick = function() {
         $('.navbar-dropdown').fadeOut();
         $('.modalWindow').fadeIn(function() {
           this.style.display = 'table';
         });
-      });
-      $('[data-dismiss=modal]').click(function() {
+      };
+      closeModal.onclick = function() {
         $('.navbar-dropdown').fadeIn();
         $('.modalWindow').fadeOut(function() {
           $('.modalWindow-video').empty().append('<iframe width="100%" height="100%" frameborder="0" allowfullscreen="1" src="thanks.html"></iframe>');
         });
-      });
+      };
+    </script>
+      
+    <script>
       pinterest-site-verification=82a9184bb30664ccc2d0a60b078151cb
     </script>
   </body>
