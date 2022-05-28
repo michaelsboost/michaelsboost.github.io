@@ -2520,7 +2520,7 @@ body {
   z-index: 1 !important;
 }
 .cid-qznFGuYBk4 .navbar-collapse {
-  padding-top: 3rem;
+  padding-top: 0;
 }
 .cid-qznFGuYBk4 nav.collapsed {
   padding-top: 3rem;
@@ -3176,6 +3176,7 @@ body {
   position: relative;
   margin: 1rem;
   align-self: center;
+  z-index: 1;
 }
 .cid-qznFGuYBk4 button.navbar-toggler .hamburger span {
   position: absolute;
@@ -3281,7 +3282,7 @@ body {
   z-index: 1 !important;
 }
 .cid-qznFGuYBk4 .navbar-collapse {
-  padding-top: 3rem;
+  margin-top: 3rem;
 }
 .cid-qznFGuYBk4 nav.collapsed {
   padding-top: 3rem;
@@ -3371,6 +3372,11 @@ body {
 @media (min-width: 768px) and (max-width: 1499px) {
   .cid-qAPhvr9IW1 .text-content {
     padding: 3rem;
+  }
+}
+@media (max-width: 785px) {
+  .navbar.navbar-dropdown {
+    padding-top: 5rem;
   }
 }
 @media (max-width: 767px) {
