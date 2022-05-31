@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Market Viewer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta name="description" content="A set of financial tools combined into a single tool designed to help both novice and advanced traders and investors.">
+    <meta name="author" content="Michael Schwartz">
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <link rel="apple-touch-icon" href="../favicon.svg">
+    <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@200&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="libraries/sweetalert2/sweetalert2.min.css" rel="stylesheet" />
+    <link href="libraries/jqxwidgets/styles/jqx.base.css" rel="stylesheet" />
+    <link href="libraries/jqxwidgets/styles/metromod.css" rel="stylesheet" />
+    <link href="libraries/jqxwidgets/styles/metrodarkmod.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <meta property="og:url"         content="https://michaelsboost.com/finance" />
+    <meta property="og:type"        content="website" />
+    <meta property="og:title"       content="Market Viewer" />
+    <meta property="og:description" content="A set of financial tools combined into a single tool designed to help both novice and advanced traders and investors." />
+<!--    <meta property="og:image"       content="https://raw.githubusercontent.com/michaelsboost/Market-Viewer/gh-pages/header.png" />-->
+  </head>
+  <body>
+    <div id="mainSplitter">
+      <div>
+        <div id="leftSplitter">
+          <div>
+            <div class="fill-container marketdata">
+              <iframe src="chart/light.html"></iframe>
+<!--              <iframe src="https://www.tradingview.com/chart/?symbol=SP%3ASPX"></iframe>-->
+            </div>
+          </div>
+          <div>
+            <div class="fill-container marketdata">
+              <iframe src="market-data/light.html"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div id="rightSplitter">
+          <div>
+            <div id="midSplitter">
+              <div>
+                <div class="fill-container">
+                  <iframe src="news/light.html"></iframe>
+                </div>
+              </div>
+              <div>
+                <div class="fill-container">
+                  <iframe src="economic-calendar/light.html"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="fill-container">
+              <iframe src="forex-heat-map/light.html"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="libraries/sweetalert2/sweetalert2.min.js"></script>
+    <script src="libraries/jquery/jquery.js"></script>
+    <script src="libraries/jqxwidgets/jqxcore.js"></script>
+    <script src="libraries/jqxwidgets/jqxsplitter.js"></script>
+    <script src="js/splitter-light.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

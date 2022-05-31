@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TradingView Chart</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="tradingview_0b60e" class="fill-container tradingview-widget-container">
+      <!-- TradingView Widget BEGIN -->
+      <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+      <!-- TradingView Widget END -->
+    </div>
+
+    <script>
+      // ticker chart
+      new TradingView.widget({
+        "width": "100%",
+        "height": window.innerHeight,
+        "symbol": "BINANCE:BTCUSD",
+        "interval": "1",
+        "timezone": "Etc/UTC",
+        "theme": "light",
+        "style": "1",
+        "locale": "en",
+        "toolbar_bg": "#f1f3f6",
+        "enable_publishing": false,
+        "hide_side_toolbar": false,
+        "allow_symbol_change": true,
+        "hotlist": true,
+        "calendar": true,
+        "details": true,
+        "studies": [
+          "BB@tv-basicstudies",
+          "Volume@tv-basicstudies",
+          "VWAP@tv-basicstudies"
+        ],
+        "news": [
+          "headlines"
+        ],
+        "container_id": "tradingview_0b60e"
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,159 @@
+/*
+  Version: 0.0.2
+  Crypto Paper Trader, copyright (c) by Michael Schwartz
+  Distributed under the MIT license: https://github.com/michaelsboost/Crypto-Paper-Trader/blob/gh-pages/LICENSE
+  This is Crypto Paper Trader (https://michaelsboost.github.io/Crypto-Paper-Trader), Day trade crypto with out risking any money!
+*/
+
+/* resets */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #131722;
+}
+body {
+  font-size: 12px;
+  line-height: 17px;
+  font-family: 'segoe ui', arial, sans-serif;
+  color: #fff;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 1px;
+  height: 0;
+  background: transparent;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+::-webkit-scrollbar-thumb {
+  background: #007ACC;
+  border: 0;
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1C97EA;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #0765a5;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* splitter */
+#mainSplitter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  border: 0;
+}
+.fill-container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.fill-container h3 {
+  font-family: 'Krub';
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  padding: 8px 0 6px 8px;
+  margin: 0;
+}
+/*
+table, tbody, tr, td {
+  border: 1px solid #fff;
+}
+*/
+.fill-container table tbody {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: calc(100% - 8px);
+  overflow: auto;
+  padding: 8px 0 6px 8px;
+}
+.fill-container table tbody tr {
+  display: inline-table;
+  width: 100%;
+}
+.fill-container table tbody tr td {
+  width: 50px;
+}
+.fill-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* center vertically and horizontally */
+.table {
+  display: table;
+  width: 100%;
+  height: 50%;
+}
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  height: 50%;
+}
+.cell select,
+.cell input,
+.cell button {
+  margin: auto;
+}
+
+/* TradingView widget */
+#tradingview_0b60e > div,
+#tradingview_0b60e > div > div {
+  width: 100%!important;
+  height: 100%!important;
+}
+
+/* market data */
+.marketdata {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* misc */
+.fill {
+  width: 100%;
+}
+.ib {
+  display: inline-block;
+}
+.block {
+  display: block;
+}
+.pointer {
+  cursor: pointer;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.tr {
+  text-align: right;
+}
+.noclick {
+  cursor: default!important;
+}

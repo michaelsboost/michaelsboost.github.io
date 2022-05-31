@@ -39,7 +39,7 @@ html, body {
 
 iframe, .tradingview-widget-container {
   width: 100%!important;
-  height: 100%!important;
+  width: 100%!important;
   padding: 0;
   margin: 0;
   border: 0;
