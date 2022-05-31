@@ -28,3 +28,6 @@ $('#midSplitter').jqxSplitter({
 $('#rightSplitter').jqxSplitter({
   panels: [{ size: "70%", collapsible: false }]
 });
+
+// collapse forex heat maps by default
+$('#rightSplitter').jqxSplitter('collapse');
