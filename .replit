@@ -1,2 +1,171 @@
 language = "html"
 run = " "
+hidden = [".config"]
+
+[languages]
+
+[languages.html]
+pattern = "**/*.html"
+
+[languages.html.languageServer]
+start = "vscode-html-language-server --stdio"
+
+[languages.html.languageServer.initializationOptions]
+provideFormatter = true
+
+[languages.html.languageServer.configuration]
+
+[languages.html.languageServer.configuration.html]
+autoCreateQuotes = true
+autoClosingTags = true
+mirrorCursorOnMatchingTag = false
+
+[languages.html.languageServer.configuration.html.completion]
+attributeDefaultValue = "doublequotes"
+
+[languages.html.languageServer.configuration.html.format]
+enable = true
+wrapLineLength = 120
+unformatted = "wbr"
+contentUnformatted = "pre,code,textarea"
+indentInnerHtml = false
+preserveNewLines = true
+indentHandlebars = false
+endWithNewline = false
+extraLiners = "head, body, /html"
+wrapAttributes = "auto"
+templating = false
+unformattedContentDelimiter = ""
+
+[languages.html.languageServer.configuration.html.suggest]
+html5 = true
+
+[languages.html.languageServer.configuration.html.validate]
+scripts = true
+styles = true
+
+[languages.html.languageServer.configuration.html.hover]
+documentation = true
+references = true
+
+[languages.html.languageServer.configuration.html.trace]
+server = "off"
+
+[languages.javascript]
+pattern = "**/{*.js,*.jsx,*.ts,*.tsx,*.mjs,*.cjs}"
+
+[languages.javascript.languageServer]
+start = "typescript-language-server --stdio"
+
+[languages.css]
+pattern = "**/{*.less,*.scss,*.css}"
+
+[languages.css.languageServer]
+start = "vscode-css-language-server --stdio"
+
+[languages.css.languageServer.configuration]
+
+[languages.css.languageServer.configuration.css]
+validate = true
+
+[languages.css.languageServer.configuration.css.completion]
+triggerPropertyValueCompletion = true
+completePropertyWithSemicolon = true
+
+[languages.css.languageServer.configuration.css.hover]
+documentation = true
+references = true
+
+[languages.css.languageServer.configuration.css.lint]
+argumentsInColorFunction = "error"
+boxModel = "ignore"
+compatibleVendorPrefixes = "ignore"
+duplicateProperties = "warning"
+emptyRules = "warning"
+float = "ignore"
+fontFaceProperties = "warning"
+hexColorLength = "error"
+idSelector = "ignore"
+ieHack = "ignore"
+important = "ignore"
+importStatement = "ignore"
+propertyIgnoredDueToDisplay = "warning"
+universalSelector = "ignore"
+unknownAtRules = "warning"
+unknownProperties = "warning"
+unknownVendorSpecificProperties = "ignore"
+vendorPrefix = "warning"
+zeroUnits = "ignore"
+
+[languages.css.languageServer.configuration.css.trace]
+server = "off"
+
+[languages.css.languageServer.configuration.scss]
+validate = true
+
+[languages.css.languageServer.configuration.scss.completion]
+triggerPropertyValueCompletion = true
+completePropertyWithSemicolon = true
+
+[languages.css.languageServer.configuration.scss.hover]
+documentation = true
+references = true
+
+[languages.css.languageServer.configuration.scss.lint]
+argumentsInColorFunction = "error"
+boxModel = "ignore"
+compatibleVendorPrefixes = "ignore"
+duplicateProperties = "warning"
+emptyRules = "warning"
+float = "ignore"
+fontFaceProperties = "warning"
+hexColorLength = "error"
+idSelector = "ignore"
+ieHack = "ignore"
+important = "ignore"
+importStatement = "ignore"
+propertyIgnoredDueToDisplay = "warning"
+universalSelector = "ignore"
+unknownAtRules = "warning"
+unknownProperties = "warning"
+unknownVendorSpecificProperties = "ignore"
+vendorPrefix = "warning"
+zeroUnits = "ignore"
+
+[languages.css.languageServer.configuration.less]
+validate = true
+
+[languages.css.languageServer.configuration.less.completion]
+triggerPropertyValueCompletion = true
+completePropertyWithSemicolon = true
+
+[languages.css.languageServer.configuration.less.hover]
+documentation = true
+references = true
+
+[languages.css.languageServer.configuration.less.lint]
+argumentsInColorFunction = "error"
+boxModel = "ignore"
+compatibleVendorPrefixes = "ignore"
+duplicateProperties = "warning"
+emptyRules = "warning"
+float = "ignore"
+fontFaceProperties = "warning"
+hexColorLength = "error"
+idSelector = "ignore"
+ieHack = "ignore"
+important = "ignore"
+importStatement = "ignore"
+propertyIgnoredDueToDisplay = "warning"
+universalSelector = "ignore"
+unknownAtRules = "warning"
+unknownProperties = "warning"
+unknownVendorSpecificProperties = "ignore"
+vendorPrefix = "warning"
+zeroUnits = "ignore"
+
+[nix]
+channel = "stable-22_11"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix", ".config"]
