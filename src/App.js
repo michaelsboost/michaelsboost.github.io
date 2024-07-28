@@ -47,7 +47,7 @@ document.addEventListener('alpine:init', () => {
     },
     observeSections() {
       const headers = document.querySelectorAll('h1');
-      const sections = ['bio', 'books', 'interviews'].map(section => document.querySelector(`[data-section="${section}"]`));
+      const sections = document.querySelectorAll(`[data-view]`);
 
       // Wrap each character in divs for headers
       headers.forEach(header => {
