@@ -336,7 +336,7 @@
 
           <!-- free -->
           <div x-show="view && window.location.hash === '#free'" data-view="free">
-            <section>
+            <section class="max-w-7xl">
               <h1 
                 class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">Free Apps & Books</h1>
     
@@ -499,12 +499,12 @@
           <!-- store -->
           <div x-show="view && window.location.hash === '#store'" data-view="store">
             <!-- merch -->
-            <section>
+            <section class="max-w-7xl">
               <h1 
                 class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">merch</h1>
     
               <div 
-                class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
+                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
                 <section 
                   class="rounded-xl border-gray-200"
                   :class="{'border-gray-800': dark}"
@@ -590,7 +590,7 @@
             </section>
 
             <!-- books -->
-            <section>
+            <section class="max-w-7xl">
               <h1 
                 class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">books</h1>
     
@@ -719,7 +719,7 @@
 
           <!-- art -->
           <div x-show="view && window.location.hash === '#art'" data-view="art">
-            <section>
+            <section class="max-w-7xl">
               <h1 
                 class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">Artwork</h1>
     
@@ -809,93 +809,95 @@
 
           <!-- interviews -->
           <div x-show="view && window.location.hash === '#interviews'" data-view="interviews">
-            <h1 
-              class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">interviews</h1>
+            <section class="max-w-7xl">
+              <h1 
+                class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">interviews</h1>
+    
+              <div 
+                class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
+                <section 
+                  class="flex flex-col justify-between gap-4 rounded-md p-4 bg-gray-100"
+                  :class="{'bg-gray-900': dark}"
+                  data-section="animate">
+                  <figure 
+                    class="border-2 border-solid rounded-xl border-gray-200"
+                    :class="{'border-gray-800': dark}">
+                    <img 
+                      width="1280" height="720"
+                      class="rounded-xl origin-center" 
+                      src="imgs/interviews/christianna.webp" 
+                      srcset="imgs/interviews/christianna-640w.webp 640w, imgs/interviews/christianna-1280w.webp 1280w" 
+                      sizes="(max-width: 640px) 100vw, 50vw" 
+                      alt="Interview with Christianna Hurt on my Ecommerce Success" />
+                  </figure>
   
-            <div 
-              class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
-              <section 
-                class="flex flex-col justify-between gap-4 rounded-md p-4 bg-gray-100"
-                :class="{'bg-gray-900': dark}"
-                data-section="animate">
-                <figure 
-                  class="border-2 border-solid rounded-xl border-gray-200"
-                  :class="{'border-gray-800': dark}">
-                  <img 
-                    width="1280" height="720"
-                    class="rounded-xl origin-center" 
-                    src="imgs/interviews/christianna.webp" 
-                    srcset="imgs/interviews/christianna-640w.webp 640w, imgs/interviews/christianna-1280w.webp 1280w" 
-                    sizes="(max-width: 640px) 100vw, 50vw" 
-                    alt="Interview with Christianna Hurt on my Ecommerce Success" />
-                </figure>
-
-                <p>
-                  In this interview, Christianna Hurt speaks with Michael Schwartz about his eCommerce success, highlighting how he transformed $100 into $1.7k in just 30 days.
-                </p>
-
-                <a 
-                  href="https://www.instagram.com/tv/CvauGNXId8c/?igsh=MXhhMDI1NWtwMmJmeQ=="
-                  target="_blank"
-                  class="capitalize text-center font-thin border border-black text-black border-solid px-4 py-2"
-                  :class="{'dark:border-white dark:text-white': dark}"
-                  aria-label="watch interview"
-                  name="watch interview">
-                  watch
-                </a>
-              </section>
-
-              <section 
-                class="flex flex-col justify-between gap-4 rounded-md p-4 bg-gray-100"
-                :class="{'bg-gray-900': dark}"
-                data-section="animate">
-                <figure 
-                  class="border-2 border-solid rounded-xl border-gray-200"
-                  :class="{'border-gray-800': dark}">
-                  <img 
-                    width="1280" height="720"
-                    class="rounded-xl origin-center" 
-                    src="imgs/interviews/nolan.webp" 
-                    srcset="imgs/interviews/nolan-640w.webp 640w, imgs/interviews/nolan-1280w.webp 1280w" 
-                    sizes="(max-width: 640px) 100vw, 50vw" 
-                    alt="Interview with Nolan Sandburn on Tax Lien Investing" />
-                </figure>
-
-                <p>
-                  In this interview, Michael Schwartz and Nolan Sandburn delve into tax lien investing, sharing expert strategies and tips for successful investments in this niche market.
-                </p>
-
-                <div class="flex flex-col gap-4">
-                  <a
-                    href="https://www.tiktok.com/t/ZT8KHF4qF/"
-                    target="_blank" 
+                  <p>
+                    In this interview, Christianna Hurt speaks with Michael Schwartz about his eCommerce success, highlighting how he transformed $100 into $1.7k in just 30 days.
+                  </p>
+  
+                  <a 
+                    href="https://www.instagram.com/tv/CvauGNXId8c/?igsh=MXhhMDI1NWtwMmJmeQ=="
+                    target="_blank"
                     class="capitalize text-center font-thin border border-black text-black border-solid px-4 py-2"
                     :class="{'dark:border-white dark:text-white': dark}"
                     aria-label="watch interview"
                     name="watch interview">
-                    watch part 1
+                    watch
                   </a>
-                  <a
-                    href="https://www.tiktok.com/t/ZT8KHAw4s/"
-                    target="_blank" 
-                    class="capitalize text-center font-thin border border-black text-black border-solid px-4 py-2"
-                    :class="{'dark:border-white dark:text-white': dark}"
-                    aria-label="watch interview"
-                    name="watch interview">
-                    watch part 2
-                  </a>
-                  <a
-                    href="https://www.tiktok.com/t/ZT8KH5qfJ/"
-                    target="_blank" 
-                    class="capitalize text-center font-thin border border-black text-black border-solid px-4 py-2"
-                    :class="{'dark:border-white dark:text-white': dark}"
-                    aria-label="watch interview"
-                    name="watch interview">
-                    watch part 3
-                  </a>
-                </div>
-              </section>
-            </div>
+                </section>
+  
+                <section 
+                  class="flex flex-col justify-between gap-4 rounded-md p-4 bg-gray-100"
+                  :class="{'bg-gray-900': dark}"
+                  data-section="animate">
+                  <figure 
+                    class="border-2 border-solid rounded-xl border-gray-200"
+                    :class="{'border-gray-800': dark}">
+                    <img 
+                      width="1280" height="720"
+                      class="rounded-xl origin-center" 
+                      src="imgs/interviews/nolan.webp" 
+                      srcset="imgs/interviews/nolan-640w.webp 640w, imgs/interviews/nolan-1280w.webp 1280w" 
+                      sizes="(max-width: 640px) 100vw, 50vw" 
+                      alt="Interview with Nolan Sandburn on Tax Lien Investing" />
+                  </figure>
+  
+                  <p>
+                    In this interview, Michael Schwartz and Nolan Sandburn delve into tax lien investing, sharing expert strategies and tips for successful investments in this niche market.
+                  </p>
+  
+                  <div class="flex flex-col gap-4">
+                    <a
+                      href="https://www.tiktok.com/t/ZT8KHF4qF/"
+                      target="_blank" 
+                      class="capitalize text-center font-thin border border-black text-black border-solid px-4 py-2"
+                      :class="{'dark:border-white dark:text-white': dark}"
+                      aria-label="watch interview"
+                      name="watch interview">
+                      watch part 1
+                    </a>
+                    <a
+                      href="https://www.tiktok.com/t/ZT8KHAw4s/"
+                      target="_blank" 
+                      class="capitalize text-center font-thin border border-black text-black border-solid px-4 py-2"
+                      :class="{'dark:border-white dark:text-white': dark}"
+                      aria-label="watch interview"
+                      name="watch interview">
+                      watch part 2
+                    </a>
+                    <a
+                      href="https://www.tiktok.com/t/ZT8KH5qfJ/"
+                      target="_blank" 
+                      class="capitalize text-center font-thin border border-black text-black border-solid px-4 py-2"
+                      :class="{'dark:border-white dark:text-white': dark}"
+                      aria-label="watch interview"
+                      name="watch interview">
+                      watch part 3
+                    </a>
+                  </div>
+                </section>
+              </div>
+            </section>
           </div>
 
           <div 
