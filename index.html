@@ -36,6 +36,8 @@
     <link rel="apple-touch-icon" href="imgs/logo.svg">
     <link rel="stylesheet" href="dist/style.css">
     <!-- <script src="libraries/tailwind/tailwind-mod.min.js"></script> -->
+    <script src="libraries/alpinejs/alpinejs.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js" defer></script>
   </head>
   <body x-data="App()" x-init="setView(); theme();" class="bg-white text-black transition-all"
     :class="{'dark:bg-black dark:text-white': dark}">
@@ -618,6 +620,7 @@
                       target="_blank"
                       aria-label="Peter the Panda's Business Journey">
                       <img 
+                        loading="lazy"
                         width="600" height="600"
                         class="rounded-xl origin-center" 
                         src="imgs/books/peterthepandasbusinessjourney.webp" 
@@ -636,6 +639,7 @@
                       target="_blank"
                       aria-label="How To Find The Right Mentor">
                       <img 
+                        loading="lazy"
                         width="600" height="600"
                         class="rounded-xl origin-center" 
                         src="imgs/books/howtofindtherightmentor.webp" 
@@ -654,6 +658,7 @@
                       target="_blank"
                       aria-label="Smart Money Saving Habits">
                       <img 
+                        loading="lazy"
                         width="600" height="600"
                         class="rounded-xl origin-center" 
                         src="imgs/books/smartmoneysavinghabits.webp" 
@@ -672,6 +677,7 @@
                       target="_blank"
                       aria-label="Mastering Your Finances">
                       <img 
+                        loading="lazy"
                         width="600" height="600"
                         class="rounded-xl origin-center" 
                         src="imgs/books/masturingyourfinances.webp" 
@@ -690,6 +696,7 @@
                       target="_blank"
                       aria-label="Guide To eBay Reselling">
                       <img 
+                        loading="lazy"
                         width="600" height="600"
                         class="rounded-xl origin-center"
                         src="imgs/books/guidetoebayreselling.webp" 
@@ -708,6 +715,7 @@
                       target="_blank"
                       aria-label="The Digital Money Matrix">
                       <img 
+                        loading="lazy"
                         width="600" height="600"
                         class="rounded-xl origin-center"
                         src="imgs/books/thedigitalmoneymatrix.webp" 
@@ -1030,8 +1038,7 @@
       </nav>
     </footer>
 
-    <script src="libraries/alpinejs/alpinejs.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js" defer></script>
-    <script src="src/App.js"></script>
+    <!-- <script src="src/App.js"></script> -->
+    <script src="dist/App.min.js"></script>
   </body>
 </html>
