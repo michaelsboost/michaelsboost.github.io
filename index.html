@@ -49,7 +49,9 @@
           href="#free"
           @click="view = '#free';"
           class="group relative block overflow-hidden">
-          <svg class="w-full cursor-pointer" viewBox="0 0 114 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          
+          <svg class="w-full cursor-pointer"
+            :class="dark ? 'text-white group-hover:fill-black' : 'text-black group-hover:fill-white'" viewBox="0 0 114 27" fill="none" xmlns="http://www.w3.org/2000/svg">
             <!-- Define the clip path -->
             <defs>
               <clipPath id="clip-path">
@@ -80,7 +82,7 @@
             <!-- Text element -->
             <text 
               class="font-thin capitalize"
-              :class="dark ? 'group-hover:fill-black' : 'group-hover:fill-white'"
+              :class="dark ? 'text-white group-hover:fill-black' : 'text-black group-hover:fill-white'"
               x="50%" 
               y="50%" 
               dx="-5"
@@ -100,7 +102,8 @@
             href="#bio"
             @click="view = '#bio';"
             class="group relative block overflow-hidden">
-            <svg class="h-20 cursor-pointer" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="h-20 cursor-pointer"
+              :class="dark ? 'text-white group-hover:fill-black' : 'text-black group-hover:fill-white'" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
               <!-- Define the clip path -->
               <defs>
                 <clipPath id="clip-bio">
@@ -152,7 +155,8 @@
           href="#store"
           @click="view = '#store';"
           class="group relative block overflow-hidden">
-          <svg class="w-full cursor-pointer" viewBox="0 0 114 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="w-full cursor-pointer"
+            :class="dark ? 'text-white group-hover:fill-black' : 'text-black group-hover:fill-white'" viewBox="0 0 114 27" fill="none" xmlns="http://www.w3.org/2000/svg">
             <!-- Define the clip path -->
             <defs>
               <clipPath id="clip-path2">
@@ -183,7 +187,7 @@
             <!-- Text element -->
             <text 
               class="font-thin capitalize"
-              :class="dark ? 'group-hover:fill-black' : 'group-hover:fill-white'"
+              :class="dark ? 'text-white group-hover:fill-black' : 'text-black group-hover:fill-white'"
               x="50%" 
               y="50%" 
               dx="8"
@@ -198,7 +202,8 @@
       </nav>
     </header>
 
-    <main class="absolute inset-0 py-32 overflow-auto">
+    <main class="absolute inset-0 py-32 overflow-auto"
+      :class="dark ? 'bg-black text-white' : 'bg-white text-black'">
       <div class="grid place-items-center h-full p-4">
         <!-- screens -->
         <article x-data="observeSections()" x-init="init()">
@@ -934,7 +939,7 @@
       </div>
     </main>
 
-    <footer class="absolute bottom-0 inset-x-0">
+    <footer class="fixed bottom-0 inset-x-0">
       <nav class="flex justify-between items-center">
         <!-- art button -->
         <a 
@@ -942,7 +947,8 @@
           href="#art"
           @click="view = '#art';"
           class="group relative block overflow-hidden">
-          <svg class="w-full cursor-pointer" viewBox="0 0 114 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="w-full cursor-pointer"
+            :class="dark ? 'text-white group-hover:fill-black' : 'text-black group-hover:fill-white'" viewBox="0 0 114 27" fill="none" xmlns="http://www.w3.org/2000/svg">
             <!-- Define the clip path -->
             <defs>
               <clipPath id="clip-art">
@@ -973,7 +979,7 @@
             <!-- Text element -->
             <text 
               class="font-thin capitalize"
-              :class="dark ? 'group-hover:fill-black' : 'group-hover:fill-white'"
+              :class="dark ? 'text-white group-hover:fill-black' : 'text-black group-hover:fill-white'"
               x="50%" 
               y="50%" 
               dx="-4"
@@ -992,7 +998,8 @@
           href="#interviews"
           @click="view = '#interviews';"
           class="group relative block overflow-hidden">
-          <svg class="w-full cursor-pointer" viewBox="0 0 114 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="w-full cursor-pointer"
+            :class="dark ? 'text-white group-hover:fill-black' : 'text-black group-hover:fill-white'" viewBox="0 0 114 27" fill="none" xmlns="http://www.w3.org/2000/svg">
             <!-- Define the clip path -->
             <defs>
               <clipPath id="clip-interviews">
@@ -1001,7 +1008,7 @@
             </defs>
             <!-- The path outline -->
             <path 
-              :class="dark ? 'fill-black group-hover:stroke-white' : 'fill-white group-hover:stroke-black'"
+              :class="dark ? 'fill-black group-hover:fill-black' : 'fill-white group-hover:fill-white'"
               d="M0.809018 26.5L13.809 0.5H113.5V26.5H0.809018Z"
               stroke="currentColor" 
               stroke-width=".5"
@@ -1023,7 +1030,7 @@
             <!-- Text element -->
             <text 
               class="font-thin capitalize"
-              :class="dark ? 'group-hover:fill-black' : 'group-hover:fill-white'"
+              :class="dark ? 'text-white group-hover:fill-black' : 'text-black group-hover:fill-white'"
               x="50%" 
               y="50%" 
               dx="6"
