@@ -210,20 +210,35 @@
           <!-- bio -->
           <div x-show="view && window.location.hash === '#bio'" data-view="bio">
             <h1 
-              class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-5xl md:text-6xl">michael schwartz</h1>
+              class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-5xl md:text-6xl mb-8">
+              About Michael
+            </h1>
   
             <div 
               class="grid grid-cols-1 gap-0 px-4 place-items-center"
               data-section="animate">
-              <video 
-                class="w-full h-full object-cover object-center" 
-                controls="false" 
-                preload="auto"
-                poster="imgs/ecom-placeholder-1280w.webp">
-                <source src="vids/ecom.mp4" type="video/mp4">
-                <source src="vids/ecom.webm" type="video/webm">
-                Your browser does not support the video tag.
-              </video>
+
+              <figure>
+                <img 
+                  width="504" height="627"
+                  loading="lazy"
+                  class="rounded-xl w-full object-cover"
+                  src="imgs/michael.jpeg" 
+                  alt="Michael Schwartz" />
+              </figure>
+              
+              <div class="mx-auto w-full md:w-9/12 mb-8 text-2xl">
+                I'm Michael Schwartz, a multi-talented creator and influencer with a passion for sharing knowledge. From my ebooks and courses to interviews with industry leaders like Christianna Hurt, Nolan Sanburn and Daniel Davis, my expertise spans day trading success, open-source software development, and much more. Discover the strategies and insights that have earned my apps recognition on sites like MakeUseOf, OMGUbuntu, and Web Designer Depot. Join me in the pursuit of excellence across all aspects of life – because a life well-lived is a masterpiece in the making.
+              </div>
+
+              <figure>
+                <img 
+                  width="906" height="700"
+                  loading="lazy"
+                  class="rounded-xl w-full object-cover"
+                  src="imgs/topstep-certificate.jpg" 
+                  alt="Topstep Certified Funded Trader" />
+              </figure>
             </div>
 
             <!-- contact -->
