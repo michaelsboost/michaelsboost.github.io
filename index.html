@@ -345,10 +345,31 @@
           <div x-show="view && window.location.hash === '#free'" data-view="free">
             <section class="max-w-7xl">
               <h1 
-                class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">Free Apps & Books</h1>
+                class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">
+                Free Stuff
+              </h1>
     
               <div 
                 class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
+                <section
+                  class="rounded-xl border-gray-200"
+                  :class="{'border-gray-800': dark}"
+                  data-section="animate">
+                  <figure>
+                    <a 
+                      href="http://michaelsboost.github.io/kodeWeave"
+                      target="_blank"
+                      aria-label="kodeWeave">
+                      <img 
+                        width="1280" height="720"
+                        loading="lazy"
+                        class="rounded-xl w-full h-96 object-cover"
+                        src="https://raw.githubusercontent.com/michaelsboost/kodeWeave/main/imgs/header.png" 
+                        alt="kodeWeave" />
+                    </a>
+                  </figure>
+                </section>
+
                 <section 
                   class="rounded-xl border-gray-200"
                   :class="{'border-gray-800': dark}"
@@ -374,15 +395,15 @@
                   data-section="animate">
                   <figure>
                     <a 
-                      href="http://michaelsboost.github.io/Cartoon-Avatar-Creator"
+                      href="http://michaelsboost.github.io/TouchDrawer"
                       target="_blank"
-                      aria-label="Cartoon Avatar Creator">
+                      aria-label="TouchDrawer">
                       <img 
                         width="1280" height="720"
                         loading="lazy"
                         class="rounded-xl w-full h-96 object-cover"
-                        src="https://raw.githubusercontent.com/michaelsboost/Cartoon-Avatar-Creator/gh-pages/screenshot.png" 
-                        alt="Cartoon Avatar Creator" />
+                        src="https://raw.githubusercontent.com/michaelsboost/TouchDrawer/gh-pages/screenshot.png" 
+                        alt="TouchDrawer" />
                     </a>
                   </figure>
                 </section>
@@ -402,25 +423,6 @@
                         class="rounded-xl w-full h-96 object-cover"
                         src="https://raw.githubusercontent.com/michaelsboost/svgMotion/gh-pages/screenshots/preview.png" 
                         alt="svgMotion" />
-                    </a>
-                  </figure>
-                </section>
-  
-                <section
-                  class="rounded-xl border-gray-200"
-                  :class="{'border-gray-800': dark}"
-                  data-section="animate">
-                  <figure>
-                    <a 
-                      href="http://michaelsboost.github.io/TouchDrawer"
-                      target="_blank"
-                      aria-label="TouchDrawer">
-                      <img 
-                        width="1280" height="720"
-                        loading="lazy"
-                        class="rounded-xl w-full h-96 object-cover"
-                        src="https://raw.githubusercontent.com/michaelsboost/TouchDrawer/gh-pages/screenshot.png" 
-                        alt="TouchDrawer" />
                     </a>
                   </figure>
                 </section>
@@ -469,15 +471,15 @@
                   data-section="animate">
                   <figure>
                     <a 
-                      href="http://michaelsboost.github.io/kodeWeave"
+                      href="http://michaelsboost.github.io/Character-Party"
                       target="_blank"
-                      aria-label="kodeWeave">
+                      aria-label="Character Party">
                       <img 
-                        width="1280" height="720"
+                        width="1418" height="745"
                         loading="lazy"
                         class="rounded-xl w-full h-96 object-cover"
-                        src="https://raw.githubusercontent.com/michaelsboost/kodeWeave/main/imgs/header.png" 
-                        alt="kodeWeave" />
+                        src="https://raw.githubusercontent.com/michaelsboost/Character-Party/gh-pages/imgs/screenshot.png" 
+                        alt="Character Party" />
                     </a>
                   </figure>
                 </section>
@@ -488,15 +490,15 @@
                   data-section="animate">
                   <figure>
                     <a 
-                      href="https://michaelsboost.gumroad.com/l/a_decade_of_making_apps?layout=profile"
+                      href="http://michaelsboost.github.io/Cartoon-Avatar-Creator"
                       target="_blank"
-                      aria-label="A Decade Of Making Apps">
+                      aria-label="Cartoon Avatar Creator">
                       <img 
-                        width="600" height="600"
+                        width="1280" height="720"
                         loading="lazy"
                         class="rounded-xl w-full h-96 object-cover"
-                        src="imgs/books/adecadeofmakingapps.webp" 
-                        alt="A Decade Of Making Apps" />
+                        src="https://raw.githubusercontent.com/michaelsboost/Cartoon-Avatar-Creator/gh-pages/screenshot.png" 
+                        alt="Cartoon Avatar Creator" />
                     </a>
                   </figure>
                 </section>
@@ -509,104 +511,7 @@
                 View more
               </a>
             </section>
-          </div>
 
-          <!-- store -->
-          <div x-show="view && window.location.hash === '#store'" data-view="store">
-            <!-- merch -->
-            <section class="max-w-7xl">
-              <h1 
-                class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">merch</h1>
-    
-              <div 
-                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-4">
-                <section 
-                  class="rounded-xl border-gray-200"
-                  :class="{'border-gray-800': dark}"
-                  data-section="animate">
-                  <figure>
-                    <a 
-                      href="https://michaelsboost-store.creator-spring.com/"
-                      target="_blank"
-                      aria-label="Merch">
-                      <img 
-                        width="600" height="600"
-                        loading="lazy"
-                        class="rounded-xl origin-center" 
-                        src="https://michaelsboost-store.creator-spring.com/_next/image?url=https%3A%2F%2Fimages.teespring.com%2Fv3%2Fimage%2F8fdU7rmuFionfT7oaRURRlvtb84%2F800%2F800.jpg&w=640&q=75" 
-                        alt="Merch" />
-                    </a>
-                  </figure>
-                </section>
-                
-                <section 
-                  class="rounded-xl border-gray-200"
-                  :class="{'border-gray-800': dark}"
-                  data-section="animate">
-                  <figure>
-                    <a 
-                      href="https://michaelsboost-store.creator-spring.com/"
-                      target="_blank"
-                      aria-label="Merch">
-                      <img 
-                        width="600" height="600"
-                        loading="lazy"
-                        class="rounded-xl origin-center" 
-                        src="https://michaelsboost-store.creator-spring.com/_next/image?url=https%3A%2F%2Fimages.teespring.com%2Fv3%2Fimage%2FfszjO63R02GwrhtIGWVTKW5Um18%2F800%2F800.jpg&w=640&q=75" 
-                        alt="Merch" />
-                    </a>
-                  </figure>
-                </section>
-                
-                <section 
-                  class="rounded-xl border-gray-200"
-                  :class="{'border-gray-800': dark}"
-                  data-section="animate">
-                  <figure>
-                    <a 
-                      href="https://michaelsboost-store.creator-spring.com/"
-                      target="_blank"
-                      aria-label="Merch">
-                      <img 
-                        width="600" height="600"
-                        loading="lazy"
-                        class="rounded-xl origin-center" 
-                        src="https://michaelsboost-store.creator-spring.com/_next/image?url=https%3A%2F%2Fimages.teespring.com%2Fv3%2Fimage%2FbWmLpR--ShkKH1pLkmhgXQKLCPo%2F800%2F800.jpg&w=640&q=75" 
-                        alt="Merch" />
-                    </a>
-                  </figure>
-                </section>
-                
-                <section 
-                  class="rounded-xl border-gray-200"
-                  :class="{'border-gray-800': dark}"
-                  data-section="animate">
-                  <figure>
-                    <a 
-                      href="https://michaelsboost-store.creator-spring.com/"
-                      target="_blank"
-                      aria-label="Merch">
-                      <img 
-                        width="600" height="600"
-                        loading="lazy"
-                        class="rounded-xl origin-center" 
-                        src="https://michaelsboost-store.creator-spring.com/_next/image?url=https%3A%2F%2Fimages.teespring.com%2Fv3%2Fimage%2F0BmwvZDvIznreTHzakq059rzM6I%2F800%2F800.jpg&w=640&q=75" 
-                        alt="Merch" />
-                    </a>
-                  </figure>
-                </section>
-              </div>
-            </section>
-
-            <!-- view more merch -->
-            <section class="p-4 mb-8">
-              <a 
-                class="font-thin border block p-4 text-center m-auto uppercase text-2xl"
-                href="https://michaelsboost-store.creator-spring.com/"
-                target="_blank">
-                View more
-              </a>
-            </section>
 
             <!-- books -->
             <section class="max-w-7xl">
@@ -732,10 +637,150 @@
             </section>
 
             <!-- view more books -->
-            <section class="p-4">
+            <section class="p-4 mb-8">
               <a 
                 class="font-thin border block p-4 text-center m-auto uppercase text-2xl"
                 href="https://michaelsboost.gumroad.com/"
+                target="_blank">
+                View more
+              </a>
+            </section>
+          </div>
+
+          <!-- store -->
+          <div x-show="view && window.location.hash === '#store'" data-view="store">
+            <!-- courses -->
+            <section class="max-w-7xl">
+              <h1 
+                class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">
+                courses
+              </h1>
+    
+              <div 
+                class="grid grid-cols-1 gap-4 p-4">
+                <section 
+                  class="rounded-xl border-gray-200"
+                  :class="{'border-gray-800': dark}"
+                  data-section="animate">
+                  <figure>
+                    <a 
+                      href="https://www.udemy.com/course/graphic-design-bootcamp-with-only-free-software/"
+                      target="_blank"
+                      aria-label="Merch">
+                      <img 
+                        width="1080" height="1080"
+                        loading="lazy"
+                        class="rounded-xl origin-center" 
+                        src="imgs/site/graphicdesign.png" 
+                        alt="Courses" />
+                    </a>
+                  </figure>
+                </section>
+              </div>
+            </section>
+
+            <!-- view more courses -->
+            <section class="p-4 mb-8">
+              <a 
+                class="font-thin border block p-4 text-center m-auto uppercase text-2xl"
+                href="https://www.udemy.com/user/2b08e305-f611-47e4-85a2-a04e9a0a90a5/"
+                target="_blank">
+                View more
+              </a>
+            </section>
+
+            <!-- merch -->
+            <section class="max-w-7xl">
+              <h1 
+                class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">
+                merch
+              </h1>
+    
+              <div 
+                class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
+                <section 
+                  class="rounded-xl border-gray-200"
+                  :class="{'border-gray-800': dark}"
+                  data-section="animate">
+                  <figure>
+                    <a 
+                      href="https://michaelsboost-store.creator-spring.com/"
+                      target="_blank"
+                      aria-label="Merch">
+                      <img 
+                        width="600" height="600"
+                        loading="lazy"
+                        class="rounded-xl origin-center" 
+                        src="https://michaelsboost-store.creator-spring.com/_next/image?url=https%3A%2F%2Fimages.teespring.com%2Fv3%2Fimage%2F8fdU7rmuFionfT7oaRURRlvtb84%2F800%2F800.jpg&w=640&q=75" 
+                        alt="Merch" />
+                    </a>
+                  </figure>
+                </section>
+                
+                <section 
+                  class="rounded-xl border-gray-200"
+                  :class="{'border-gray-800': dark}"
+                  data-section="animate">
+                  <figure>
+                    <a 
+                      href="https://michaelsboost-store.creator-spring.com/"
+                      target="_blank"
+                      aria-label="Merch">
+                      <img 
+                        width="600" height="600"
+                        loading="lazy"
+                        class="rounded-xl origin-center" 
+                        src="https://michaelsboost-store.creator-spring.com/_next/image?url=https%3A%2F%2Fimages.teespring.com%2Fv3%2Fimage%2FfszjO63R02GwrhtIGWVTKW5Um18%2F800%2F800.jpg&w=640&q=75" 
+                        alt="Merch" />
+                    </a>
+                  </figure>
+                </section>
+                
+                <section 
+                  class="rounded-xl border-gray-200"
+                  :class="{'border-gray-800': dark}"
+                  data-section="animate">
+                  <figure>
+                    <a 
+                      href="https://michaelsboost-store.creator-spring.com/"
+                      target="_blank"
+                      aria-label="Merch">
+                      <img 
+                        width="600" height="600"
+                        loading="lazy"
+                        class="rounded-xl origin-center" 
+                        src="https://michaelsboost-store.creator-spring.com/_next/image?url=https%3A%2F%2Fimages.teespring.com%2Fv3%2Fimage%2FbWmLpR--ShkKH1pLkmhgXQKLCPo%2F800%2F800.jpg&w=640&q=75" 
+                        alt="Merch" />
+                    </a>
+                  </figure>
+                </section>
+                
+                <section 
+                  class="rounded-xl border-gray-200"
+                  :class="{'border-gray-800': dark}"
+                  data-section="animate">
+                  <figure>
+                    <a 
+                      href="https://michaelsboost-store.creator-spring.com/"
+                      target="_blank"
+                      aria-label="Merch">
+                      <img 
+                        width="600" height="600"
+                        loading="lazy"
+                        class="rounded-xl origin-center" 
+                        src="https://michaelsboost-store.creator-spring.com/_next/image?url=https%3A%2F%2Fimages.teespring.com%2Fv3%2Fimage%2F0BmwvZDvIznreTHzakq059rzM6I%2F800%2F800.jpg&w=640&q=75" 
+                        alt="Merch" />
+                    </a>
+                  </figure>
+                </section>
+              </div>
+            </section>
+
+            <!-- view more merch -->
+            <section class="p-4 mb-8">
+              <a 
+                class="font-thin border block p-4 text-center m-auto uppercase text-2xl"
+                href="https://michaelsboost-store.creator-spring.com/"
                 target="_blank">
                 View more
               </a>
