@@ -515,15 +515,15 @@
                   data-section="animate">
                   <figure>
                     <a 
-                      href="http://michaelsboost.github.io/Cartoon-Avatar-Creator"
+                      href="http://michaelsboost.github.io/Beacon/"
                       target="_blank"
-                      aria-label="Cartoon Avatar Creator">
+                      aria-label="Beacon: Emergency Tools, Training & Strategy">
                       <img 
-                        width="1280" height="720"
+                        width="3840" height="2400"
                         loading="lazy"
                         class="rounded-xl w-full h-96 object-cover"
-                        src="https://raw.githubusercontent.com/michaelsboost/Cartoon-Avatar-Creator/gh-pages/screenshot.png" 
-                        alt="Cartoon Avatar Creator" />
+                        src="https://raw.githubusercontent.com/michaelsboost/Beacon/main/imgs/screenshots/6guides.png" 
+                        alt="Beacon: Emergency Tools, Training & Strategy" />
                     </a>
                   </figure>
                 </section>
@@ -538,7 +538,6 @@
                 </a>
               </section>
             </section>
-
 
             <!-- books -->
             <section class="max-w-7xl">
@@ -1157,5 +1156,28 @@
 
     <!-- <script src="src/App.js"></script> -->
     <script src="dist/App.min.js"></script>
+    <script src="https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js').then(reg => {
+          reg.addEventListener('updatefound', () => {
+            const newSW = reg.installing;
+            newSW.addEventListener('statechange', () => {
+              if (newSW.state === 'installed' && navigator.serviceWorker.controller) {
+                // Notify the user and reload if they confirm
+                if (confirm('A new version is available. Reload now?')) {
+                  window.location.reload();
+                }
+              }
+            });
+          });
+        });
+    
+        // Ensure immediate activation of a new service worker
+        navigator.serviceWorker.ready.then(registration => {
+          registration.active.postMessage({ type: 'SKIP_WAITING' });
+        });
+      }
+    </script>
   </body>
 </html>
