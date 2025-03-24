@@ -208,14 +208,13 @@
         <!-- screens -->
         <article x-data="observeSections()" x-init="init()">
           <!-- bio -->
-          <div x-show="view && window.location.hash === '#bio'" data-view="bio">
+          <div x-show="view && window.location.hash === '#bio'" data-view="bio" class="grid grid-cols-1 gap-0 px-4 place-items-center">
             <h1 
-              class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-5xl md:text-6xl mb-8">
+              class="py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8">
               About Michael
             </h1>
   
-            <div 
-              class="grid grid-cols-1 gap-0 px-4 place-items-center">
+            <div class="grid grid-cols-1 gap-0 place-items-center">
 
               <figure>
                 <img 
@@ -226,7 +225,7 @@
                   alt="Michael Schwartz" />
               </figure>
               
-              <div class="mx-auto w-full md:w-9/12 mb-8 text-2xl">
+              <div class="mx-auto w-full mb-8 text-2xl">
                 I'm Michael Schwartz, a multi-talented creator and influencer with a passion for sharing knowledge. From my ebooks and courses to interviews with industry leaders like Christianna Hurt, Nolan Sanburn and Daniel Davis, my expertise spans day trading success, open-source software development, and much more. Discover the strategies and insights that have earned my apps recognition on sites like MakeUseOf, OMGUbuntu, and Web Designer Depot. Join me in the pursuit of excellence across all aspects of life – because a life well-lived is a masterpiece in the making.
               </div>
 
@@ -241,43 +240,51 @@
             </div>
 
             <!-- contact -->
-            <div class="p-4">
+            <div class="p-4 w-full md:w-9/12">
               <h1 
-                class="text-center p-4 uppercase font-extrabold text-2xl sm:text-4xl">
+                class="py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8">
                 let's connect!
               </h1>
 
-              <hr class="my-8 mx-auto w-full md:w-9/12">
+              <hr class="my-8 mx-auto">
 
               <form 
                 action="https://app.gumroad.com/follow_from_embed_form" 
                 method="post" 
-                class="p-4 pb-8 w-full md:w-9/12 text-center m-auto flex justify-center"
+                class="pb-8 w-full text-center m-auto flex justify-center"
                 id="gumroad-follow-form-embed"
                 data-section="animate">
+
                 <input type="hidden" name="seller_id" value="6588415988250">
-                <input 
-                  id="gumroad-follow-form-embed-input" 
-                  class="bg-transparent w-full p-4 text-base leading-normal border border-solid border-black" 
-                  :class="{'border-white': dark}"
-                  type="email" placeholder="Your email address" name="email" value="">
-                <button 
-                  id="gumroad-follow-form-embed-button" 
-                  class="leading-normal border-y border-r border-solid px-8 py-4 sm:px-16 -ml-1 border-black" 
-                  :class="{'border-white': dark}"
-                  type="submit">
-                  Follow
-                </button>
+
+                <div class="w-full flex flex-col md:flex-row gap-4 md:gap-0">
+                  <input 
+                    id="gumroad-follow-form-embed-input" 
+                    class="bg-transparent w-full md:w-3/4 p-4 text-base leading-normal border border-solid border-black" 
+                    :class="{'border-white': dark}"
+                    type="email" 
+                    placeholder="Your email address" 
+                    name="email" 
+                    value="">
+                  
+                  <button 
+                    id="gumroad-follow-form-embed-button" 
+                    class="leading-normal border md:border-l-0 border-solid px-8 py-4 md:-ml-1 border-black w-full md:w-1/4" 
+                    :class="{'border-white': dark}"
+                    type="submit">
+                    Follow
+                  </button>
+                </div>
               </form>
 
               <!-- social media links -->
               <div 
-                class="mx-auto w-full md:w-9/12 my-8 flex justify-between place-items-center gap-4 p-4"
+                class="mx-auto my-8 w-full grid grid-cols-4 md:grid-cols-8 place-items-center gap-4 p-4"
                 data-section="animate">
                 <!-- tiktok -->
                 <a aria-label="tiktok" href="https://www.tiktok.com/@michaelsboost" target="_blank">
                   <svg 
-                    class="h-12"
+                    class="h-6 md:h-12"
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 448 512">
                     <path 
@@ -288,7 +295,7 @@
                 <!-- youtube -->
                 <a aria-label="youtube" href="https://www.youtube.com/@michaelsboost" target="_blank">
                   <svg 
-                    class="h-12"
+                    class="h-6 md:h-12"
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 24 24">
                     <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor">
@@ -299,7 +306,7 @@
                 <!-- twitter/x -->
                 <a aria-label="twitter" href="https://twitter.com/michaelsboost" target="_blank">
                   <svg 
-                    class="h-12"
+                    class="h-6 md:h-12"
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 512 512">
                     <path 
@@ -310,7 +317,7 @@
                 <!-- linkedin -->
                 <a aria-label="linkedin" href="https://www.linkedin.com/in/michaelsboost" target="_blank">
                   <svg 
-                    class="h-12 text-[#0967c2]"
+                    class="h-6 md:h-12 text-[#0967c2]"
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 448 512">
                     <path 
@@ -321,7 +328,7 @@
                 <!-- dribbble -->
                 <a aria-label="dribbble" href="https://dribbble.com/michaelsboost" target="_blank">
                   <svg 
-                    class="h-12 text-[#eb117d]"
+                    class="h-6 md:h-12 text-[#eb117d]"
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 512 512">
                     <path 
@@ -332,7 +339,7 @@
                 <!-- github -->
                 <a aria-label="github" href="https://github.com/michaelsboost" target="_blank">
                   <svg 
-                    class="h-12"
+                    class="h-6 md:h-12"
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 496 512">
                     <path 
@@ -343,7 +350,7 @@
                 <!-- codepen -->
                 <a aria-label="codepen" href="https://codepen.io/michaelsboost" target="_blank">
                   <svg 
-                    class="h-12"
+                    class="h-6 md:h-12"
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 512 512">
                     <path 
@@ -354,7 +361,7 @@
                 <!-- donate -->
                 <a aria-label="donate" href="https://michaelsboost.com/donate" target="_blank">
                   <svg 
-                    class="h-12 text-red-400"
+                    class="h-6 md:h-12 text-red-400"
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 512 512">
                     <path 
@@ -370,7 +377,7 @@
           <div x-show="view && window.location.hash === '#free'" data-view="free">
             <section class="max-w-7xl">
               <h1 
-                class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">
+              class="py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8">
                 Free Stuff
               </h1>
     
@@ -716,7 +723,7 @@
             <!-- courses -->
             <section class="max-w-7xl">
               <h1 
-                class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">
+                class="py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8">
                 courses
               </h1>
     
@@ -756,7 +763,7 @@
             <!-- merch -->
             <section class="max-w-7xl">
               <h1 
-                class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">
+                class="py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8">
                 merch
               </h1>
     
@@ -855,7 +862,9 @@
           <div x-show="view && window.location.hash === '#art'" data-view="art">
             <section class="max-w-7xl">
               <h1 
-                class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">Artwork</h1>
+                class="py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8">
+                Artwork
+              </h1>
     
               <div 
                 class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
@@ -949,7 +958,9 @@
           <div x-show="view && window.location.hash === '#interviews'" data-view="interviews">
             <section class="max-w-7xl">
               <h1 
-                class="p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl">interviews</h1>
+              class="py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8">
+                interviews
+              </h1>
     
               <div 
                 class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
@@ -1042,7 +1053,7 @@
 
           <div 
             class="text-center p-4 mb-16">
-            Copyright © 2023-2024 Michaels Boost LLC, All Rights Reserved
+            Copyright © 2023-2025 Michaels Boost LLC, All Rights Reserved
           </div>
         </article>
       </div>

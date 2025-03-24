@@ -685,7 +685,7 @@
                       "id": "f33wvuoeq",
                       "style": "",
                       "state": {
-                        "collapsed": true,
+                        "collapsed": false,
                         "visible": true,
                         "selected": false
                       },
@@ -694,7 +694,8 @@
                       "text": "",
                       "props": {
                         "x-show": "view && window.location.hash === '#bio'",
-                        "data-view": "bio"
+                        "data-view": "bio",
+                        "class": "grid grid-cols-1 gap-0 px-4 place-items-center"
                       },
                       "children": [
                         {
@@ -710,7 +711,7 @@
                           "type": "text",
                           "text": "About Michael",
                           "props": {
-                            "class": "p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-5xl md:text-6xl mb-8"
+                            "class": "py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8"
                           },
                           "children": []
                         },
@@ -727,7 +728,7 @@
                           "type": "box",
                           "text": "",
                           "props": {
-                            "class": "grid grid-cols-1 gap-0 px-4 place-items-center"
+                            "class": "grid grid-cols-1 gap-0 place-items-center"
                           },
                           "children": [
                             {
@@ -759,7 +760,7 @@
                                     "height": "627",
                                     "loading": "lazy",
                                     "class": "rounded-xl w-full object-cover",
-                                    "src": "http://127.0.0.1:5500/imgs/michael.jpeg",
+                                    "src": "https://michaelsboost.com/imgs/michael.jpeg",
                                     "alt": "Michael Schwartz"
                                   }
                                 }
@@ -778,7 +779,7 @@
                               "type": "box",
                               "text": "I'm Michael Schwartz, a multi-talented creator and influencer with a passion for sharing knowledge. From my ebooks and courses to interviews with industry leaders like Christianna Hurt, Nolan Sanburn and Daniel Davis, my expertise spans day trading success, open-source software development, and much more. Discover the strategies and insights that have earned my apps recognition on sites like MakeUseOf, OMGUbuntu, and Web Designer Depot. Join me in the pursuit of excellence across all aspects of life – because a life well-lived is a masterpiece in the making.",
                               "props": {
-                                "class": "mx-auto w-full md:w-9/12 mb-8 text-2xl"
+                                "class": "mx-auto w-full mb-8 text-2xl"
                               },
                               "children": []
                             },
@@ -787,7 +788,7 @@
                               "id": "bsjqiivvp",
                               "style": "",
                               "state": {
-                                "collapsed": false,
+                                "collapsed": true,
                                 "visible": true,
                                 "selected": false
                               },
@@ -811,7 +812,7 @@
                                     "height": "700",
                                     "loading": "lazy",
                                     "class": "rounded-xl w-full object-cover",
-                                    "src": "http://127.0.0.1:5500/imgs/topstep-certificate.jpg",
+                                    "src": "https://michaelsboost.com/imgs/topstep-certificate.jpg",
                                     "alt": "Topstep Certified Funded Trader"
                                   }
                                 }
@@ -824,7 +825,7 @@
                           "id": "qw5t9smly",
                           "style": "",
                           "state": {
-                            "collapsed": true,
+                            "collapsed": false,
                             "visible": true,
                             "selected": false
                           },
@@ -832,7 +833,7 @@
                           "type": "box",
                           "text": "",
                           "props": {
-                            "class": "p-4"
+                            "class": "p-4 w-full md:w-9/12"
                           },
                           "children": [
                             {
@@ -848,7 +849,7 @@
                               "type": "text",
                               "text": "let's connect!",
                               "props": {
-                                "class": "text-center p-4 uppercase font-extrabold text-2xl sm:text-4xl"
+                                "class": "py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8"
                               },
                               "children": []
                             },
@@ -864,7 +865,7 @@
                               "name": "hr",
                               "type": "hr",
                               "props": {
-                                "class": "my-8 mx-auto w-full md:w-9/12"
+                                "class": "my-8 mx-auto"
                               }
                             },
                             {
@@ -872,7 +873,7 @@
                               "id": "mc82lckmq",
                               "style": "",
                               "state": {
-                                "collapsed": true,
+                                "collapsed": false,
                                 "visible": true,
                                 "selected": false
                               },
@@ -882,14 +883,14 @@
                               "props": {
                                 "action": "https://app.gumroad.com/follow_from_embed_form",
                                 "method": "post",
-                                "class": "p-4 pb-8 w-full md:w-9/12 text-center m-auto flex justify-center",
+                                "class": "pb-8 w-full text-center m-auto flex justify-center",
                                 "id": "gumroad-follow-form-embed",
                                 "data-section": "animate"
                               },
                               "children": [
                                 {
                                   "tag": "input",
-                                  "id": "fdviyf22b",
+                                  "id": "ex1j61zbz",
                                   "style": "",
                                   "state": {
                                     "collapsed": false,
@@ -905,47 +906,66 @@
                                   }
                                 },
                                 {
-                                  "tag": "input",
-                                  "id": "o2k2krp4c",
+                                  "tag": "div",
+                                  "id": "q9ohh1bdm",
                                   "style": "",
                                   "state": {
                                     "collapsed": false,
                                     "visible": true,
                                     "selected": false
                                   },
-                                  "name": "input",
-                                  "type": "input",
+                                  "name": "div",
+                                  "type": "box",
+                                  "text": "",
                                   "props": {
-                                    "id": "gumroad-follow-form-embed-input",
-                                    "class": "bg-transparent w-full p-4 text-base leading-normal border border-solid border-black",
-                                    ":class": "{'border-white': dark}",
-                                    "type": "email",
-                                    "placeholder": "Your email address",
-                                    "name": "email",
-                                    "value": ""
-                                  }
-                                },
-                                {
-                                  "tag": "button",
-                                  "id": "v4limpc6c",
-                                  "style": "",
-                                  "state": {
-                                    "collapsed": false,
-                                    "visible": true,
-                                    "selected": false
+                                    "class": "w-full flex flex-col md:flex-row gap-4 md:gap-0"
                                   },
-                                  "name": "button",
-                                  "type": "text",
-                                  "text": "Follow",
-                                  "props": {
-                                    "id": "gumroad-follow-form-embed-button",
-                                    "class": "leading-normal border-y border-r border-solid px-8 py-4 sm:px-16 -ml-1 border-black",
-                                    ":class": "{'border-white': dark}",
-                                    "type": "submit"
-                                  },
-                                  "children": []
+                                  "children": [
+                                    {
+                                      "tag": "input",
+                                      "id": "tdepwuh8e",
+                                      "style": "",
+                                      "state": {
+                                        "collapsed": false,
+                                        "visible": true,
+                                        "selected": false
+                                      },
+                                      "name": "input",
+                                      "type": "input",
+                                      "props": {
+                                        "id": "gumroad-follow-form-embed-input",
+                                        "class": "bg-transparent w-full md:w-3/4 p-4 text-base leading-normal border border-solid border-black",
+                                        ":class": "{'border-white': dark}",
+                                        "type": "email",
+                                        "placeholder": "Your email address",
+                                        "name": "email",
+                                        "value": ""
+                                      }
+                                    },
+                                    {
+                                      "tag": "button",
+                                      "id": "d0tdtina8",
+                                      "style": "",
+                                      "state": {
+                                        "collapsed": false,
+                                        "visible": true,
+                                        "selected": false
+                                      },
+                                      "name": "button",
+                                      "type": "text",
+                                      "text": "Follow",
+                                      "props": {
+                                        "id": "gumroad-follow-form-embed-button",
+                                        "class": "leading-normal border md:border-l-0 border-solid px-8 py-4 md:-ml-1 border-black w-full md:w-1/4",
+                                        ":class": "{'border-white': dark}",
+                                        "type": "submit"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
                                 }
-                              ]
+                              ],
+                              "selected": false
                             },
                             {
                               "tag": "div",
@@ -960,7 +980,7 @@
                               "type": "box",
                               "text": "",
                               "props": {
-                                "class": "mx-auto w-full md:w-9/12 my-8 flex justify-between place-items-center gap-4 p-4",
+                                "class": "mx-auto my-8 w-full grid grid-cols-4 md:grid-cols-8 place-items-center gap-4 p-4",
                                 "data-section": "animate"
                               },
                               "children": [
@@ -969,7 +989,7 @@
                                   "id": "e4iz1q496",
                                   "style": "",
                                   "state": {
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "visible": true,
                                     "selected": false
                                   },
@@ -994,7 +1014,7 @@
                                       "name": "svg",
                                       "type": "svg",
                                       "props": {
-                                        "class": "h-12",
+                                        "class": "h-6 md:h-12",
                                         "xmlns": "http://www.w3.org/2000/svg",
                                         "viewbox": "0 0 448 512"
                                       },
@@ -1024,7 +1044,7 @@
                                   "id": "o7x36prsc",
                                   "style": "",
                                   "state": {
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "visible": true,
                                     "selected": false
                                   },
@@ -1049,7 +1069,7 @@
                                       "name": "svg",
                                       "type": "svg",
                                       "props": {
-                                        "class": "h-12",
+                                        "class": "h-6 md:h-12",
                                         "xmlns": "http://www.w3.org/2000/svg",
                                         "viewbox": "0 0 24 24"
                                       },
@@ -1115,7 +1135,7 @@
                                   "id": "jslid3uml",
                                   "style": "",
                                   "state": {
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "visible": true,
                                     "selected": false
                                   },
@@ -1140,7 +1160,7 @@
                                       "name": "svg",
                                       "type": "svg",
                                       "props": {
-                                        "class": "h-12",
+                                        "class": "h-6 md:h-12",
                                         "xmlns": "http://www.w3.org/2000/svg",
                                         "viewbox": "0 0 512 512"
                                       },
@@ -1170,7 +1190,7 @@
                                   "id": "b5qb1d62r",
                                   "style": "",
                                   "state": {
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "visible": true,
                                     "selected": false
                                   },
@@ -1195,7 +1215,7 @@
                                       "name": "svg",
                                       "type": "svg",
                                       "props": {
-                                        "class": "h-12 text-[#0967c2]",
+                                        "class": "h-6 md:h-12 text-[#0967c2]",
                                         "xmlns": "http://www.w3.org/2000/svg",
                                         "viewbox": "0 0 448 512"
                                       },
@@ -1225,7 +1245,7 @@
                                   "id": "rzb314z6u",
                                   "style": "",
                                   "state": {
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "visible": true,
                                     "selected": false
                                   },
@@ -1250,7 +1270,7 @@
                                       "name": "svg",
                                       "type": "svg",
                                       "props": {
-                                        "class": "h-12 text-[#eb117d]",
+                                        "class": "h-6 md:h-12 text-[#eb117d]",
                                         "xmlns": "http://www.w3.org/2000/svg",
                                         "viewbox": "0 0 512 512"
                                       },
@@ -1280,7 +1300,7 @@
                                   "id": "igu6mke0z",
                                   "style": "",
                                   "state": {
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "visible": true,
                                     "selected": false
                                   },
@@ -1305,7 +1325,7 @@
                                       "name": "svg",
                                       "type": "svg",
                                       "props": {
-                                        "class": "h-12",
+                                        "class": "h-6 md:h-12",
                                         "xmlns": "http://www.w3.org/2000/svg",
                                         "viewbox": "0 0 496 512"
                                       },
@@ -1335,7 +1355,7 @@
                                   "id": "adg2klliu",
                                   "style": "",
                                   "state": {
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "visible": true,
                                     "selected": false
                                   },
@@ -1360,7 +1380,7 @@
                                       "name": "svg",
                                       "type": "svg",
                                       "props": {
-                                        "class": "h-12",
+                                        "class": "h-6 md:h-12",
                                         "xmlns": "http://www.w3.org/2000/svg",
                                         "viewbox": "0 0 512 512"
                                       },
@@ -1390,7 +1410,7 @@
                                   "id": "prtfj3251",
                                   "style": "",
                                   "state": {
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "visible": true,
                                     "selected": false
                                   },
@@ -1415,7 +1435,7 @@
                                       "name": "svg",
                                       "type": "svg",
                                       "props": {
-                                        "class": "h-12 text-red-400",
+                                        "class": "h-6 md:h-12 text-red-400",
                                         "xmlns": "http://www.w3.org/2000/svg",
                                         "viewbox": "0 0 512 512"
                                       },
@@ -1509,7 +1529,7 @@
                                   "type": "text",
                                   "text": "Free Stuff",
                                   "props": {
-                                    "class": "p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl"
+                                    "class": "py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8"
                                   },
                                   "children": []
                                 },
@@ -2912,7 +2932,7 @@
                               "type": "text",
                               "text": "courses",
                               "props": {
-                                "class": "p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl"
+                                "class": "py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8"
                               },
                               "children": []
                             },
@@ -3487,7 +3507,7 @@
                               "type": "text",
                               "text": "Artwork",
                               "props": {
-                                "class": "p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl"
+                                "class": "py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8"
                               },
                               "children": []
                             },
@@ -3878,7 +3898,7 @@
                               "type": "text",
                               "text": "interviews",
                               "props": {
-                                "class": "p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl"
+                                "class": "py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8"
                               },
                               "children": []
                             },
