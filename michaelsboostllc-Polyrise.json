@@ -773,13 +773,13 @@
                               "state": {
                                 "collapsed": false,
                                 "visible": true,
-                                "selected": false
+                                "selected": true
                               },
                               "name": "div",
                               "type": "box",
                               "text": "I'm Michael Schwartz, a multi-talented creator and influencer with a passion for sharing knowledge. From my ebooks and courses to interviews with industry leaders like Christianna Hurt, Nolan Sanburn and Daniel Davis, my expertise spans day trading success, open-source software development, and much more. Discover the strategies and insights that have earned my apps recognition on sites like MakeUseOf, OMGUbuntu, and Web Designer Depot. Join me in the pursuit of excellence across all aspects of life – because a life well-lived is a masterpiece in the making.",
                               "props": {
-                                "class": "mx-auto w-full mb-8 text-2xl"
+                                "class": "mx-auto w-full md:w-9/12 mb-8 text-2xl"
                               },
                               "children": []
                             },
