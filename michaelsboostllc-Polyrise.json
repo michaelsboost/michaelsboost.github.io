@@ -1505,7 +1505,7 @@
                               "id": "zmjb6ztsx",
                               "style": "",
                               "state": {
-                                "collapsed": false,
+                                "collapsed": true,
                                 "visible": true,
                                 "selected": false
                               },
@@ -1538,7 +1538,7 @@
                                   "id": "l32j2vh38",
                                   "style": "",
                                   "state": {
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "visible": true,
                                     "selected": false
                                   },
@@ -2196,7 +2196,7 @@
                               "id": "y7tl4cwwr",
                               "style": "",
                               "state": {
-                                "collapsed": true,
+                                "collapsed": false,
                                 "visible": true,
                                 "selected": false
                               },
@@ -2220,7 +2220,7 @@
                                   "type": "text",
                                   "text": "books",
                                   "props": {
-                                    "class": "p-4 text-center m-auto uppercase font-extrabold text-4xl sm:text-6xl"
+                                    "class": "py-4 text-center m-auto uppercase font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8"
                                   },
                                   "children": []
                                 },
