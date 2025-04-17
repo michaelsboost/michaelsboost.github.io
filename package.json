@@ -5,17 +5,21 @@
   "type": "module",
   "scripts": {
     "build:css": "postcss src/style.css -o dist/style.css",
-    "build": "npm run build:css",
+    "build:js": "esbuild src/concat.js --bundle --minify --sourcemap --outfile=dist/script.js",
+    "build:c": "rollup -c",
+    "build": "npm run build:c && npm run build:js && npm run build:css",
     "serve": "http-server -c-1 -p 8081"
   },
-  "dependencies": {
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
     "autoprefixer": "^10.4.19",
     "cssnano": "^7.0.2",
+    "http-server": "^14.1.1",
     "postcss": "^8.4.38",
     "postcss-import": "^16.1.0",
-    "tailwindcss": "^3.4.4"
-  },
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.13"
+    "rollup": "^2.79.1",
+    "tailwindcss": "^3.4.4",
+    "terser": "^5.10.0",
+    "esbuild": "^0.25.2"
   }
 }

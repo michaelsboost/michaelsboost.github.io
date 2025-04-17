@@ -1,6 +1,18 @@
 function App() {
   return {
-    dark: true,
+    dark: JSON.parse(localStorage.getItem("michaelsboost-darkTheme")) ?? true,
+    init() {
+      // Apply initial theme class
+      this.theme();
+
+      // Watch for changes to `dark` and save them
+      this.$watch("dark", (value) => {
+        localStorage.setItem("michaelsboost-darkTheme", JSON.stringify(value));
+        this.theme();
+      });
+
+      this.setView();
+    },
     view: window.location.hash || "#bio",
     setView() {
       if (!window.location.hash) {
@@ -24,12 +36,8 @@ function App() {
       },
     },
     theme() {
-      const isDark =
-        !("color-theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches;
-      document.documentElement.classList.toggle("dark", isDark);
-      this.dark = isDark;
-    },
+      document.documentElement.classList.toggle("dark", this.dark);
+    }
   };
 }
 
