@@ -685,7 +685,7 @@
                       "id": "f33wvuoeq",
                       "style": "",
                       "state": {
-                        "collapsed": false,
+                        "collapsed": true,
                         "visible": true,
                         "selected": false
                       },
@@ -1472,7 +1472,7 @@
                       "id": "h3mrn6h6l",
                       "style": "",
                       "state": {
-                        "collapsed": true,
+                        "collapsed": false,
                         "visible": true,
                         "selected": false
                       },
@@ -1505,7 +1505,7 @@
                               "id": "zmjb6ztsx",
                               "style": "",
                               "state": {
-                                "collapsed": true,
+                                "collapsed": false,
                                 "visible": true,
                                 "selected": false
                               },
@@ -1538,7 +1538,7 @@
                                   "id": "l32j2vh38",
                                   "style": "",
                                   "state": {
-                                    "collapsed": true,
+                                    "collapsed": false,
                                     "visible": true,
                                     "selected": false
                                   },
@@ -1854,7 +1854,7 @@
                                       "id": "oh9lx0yld",
                                       "style": "",
                                       "state": {
-                                        "collapsed": true,
+                                        "collapsed": false,
                                         "visible": true,
                                         "selected": false
                                       },
@@ -1882,7 +1882,7 @@
                                           "children": [
                                             {
                                               "tag": "a",
-                                              "id": "jbv9xn3qy",
+                                              "id": "e4pa727tb",
                                               "style": "",
                                               "state": {
                                                 "collapsed": false,
@@ -1893,14 +1893,14 @@
                                               "type": "text",
                                               "text": "",
                                               "props": {
-                                                "href": "http://michaelsboost.github.io/Michaels-Workout-App/",
+                                                "href": "http://michaelsboost.github.io/Rite/",
                                                 "target": "_blank",
-                                                "aria-label": "Michael's Workout App"
+                                                "aria-label": "RITE – Not Your Momma’s Workout App"
                                               },
                                               "children": [
                                                 {
                                                   "tag": "img",
-                                                  "id": "qplpuwtud",
+                                                  "id": "fftibziah",
                                                   "style": "",
                                                   "state": {
                                                     "collapsed": false,
@@ -1914,13 +1914,14 @@
                                                     "height": "720",
                                                     "loading": "lazy",
                                                     "class": "rounded-xl w-full h-96 object-cover",
-                                                    "src": "https://raw.githubusercontent.com/michaelsboost/Michaels-Workout-App/gh-pages/screenshot5.png",
-                                                    "alt": "Michael's Workout App"
+                                                    "src": "https://raw.githubusercontent.com/michaelsboost/Rite/gh-pages/imgs/screenshot.jpeg",
+                                                    "alt": "RITE – Not Your Momma’s Workout App"
                                                   }
                                                 }
                                               ]
                                             }
-                                          ]
+                                          ],
+                                          "selected": false
                                         }
                                       ]
                                     },
@@ -2196,7 +2197,7 @@
                               "id": "y7tl4cwwr",
                               "style": "",
                               "state": {
-                                "collapsed": false,
+                                "collapsed": true,
                                 "visible": true,
                                 "selected": false
                               },
