@@ -279,6 +279,26 @@
                             },
                             {
                               "tag": "a",
+                              "id": "xnjyv90e4",
+                              "style": "",
+                              "state": {
+                                "collapsed": false,
+                                "visible": true,
+                                "selected": true
+                              },
+                              "name": "a",
+                              "type": "text",
+                              "text": "Beacon Survival App 🔦",
+                              "props": {
+                                "href": "https://michaelsboost.com/Beacon/",
+                                "target": "_blank",
+                                "class": "leading-normal border border-solid px-8 py-4 border-white w-full mt-4 hover:bg-white hover:text-black transition duration-150",
+                                "type": "button"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "a",
                               "id": "xl47vaxlo",
                               "style": "",
                               "state": {
