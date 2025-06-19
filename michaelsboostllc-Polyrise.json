@@ -1505,7 +1505,7 @@
                               "id": "zmjb6ztsx",
                               "style": "",
                               "state": {
-                                "collapsed": true,
+                                "collapsed": false,
                                 "visible": true,
                                 "selected": false
                               },
@@ -1538,7 +1538,7 @@
                                   "id": "l32j2vh38",
                                   "style": "",
                                   "state": {
-                                    "collapsed": true,
+                                    "collapsed": false,
                                     "visible": true,
                                     "selected": false
                                   },
@@ -1704,7 +1704,7 @@
                                       "id": "yco6dnlp9",
                                       "style": "",
                                       "state": {
-                                        "collapsed": true,
+                                        "collapsed": false,
                                         "visible": true,
                                         "selected": false
                                       },
@@ -1737,15 +1737,15 @@
                                               "state": {
                                                 "collapsed": false,
                                                 "visible": true,
-                                                "selected": false
+                                                "selected": true
                                               },
                                               "name": "a",
                                               "type": "text",
                                               "text": "",
                                               "props": {
-                                                "href": "http://michaelsboost.github.io/TouchDrawer",
+                                                "href": "http://michaelsboost.github.io/PropForge",
                                                 "target": "_blank",
-                                                "aria-label": "TouchDrawer"
+                                                "aria-label": "PropForge"
                                               },
                                               "children": [
                                                 {
@@ -1764,8 +1764,8 @@
                                                     "height": "720",
                                                     "loading": "lazy",
                                                     "class": "rounded-xl w-full h-96 object-cover",
-                                                    "src": "https://raw.githubusercontent.com/michaelsboost/TouchDrawer/gh-pages/screenshot.png",
-                                                    "alt": "TouchDrawer"
+                                                    "src": "https://raw.githubusercontent.com/michaelsboost/PropForge/main/imgs/screenshot.jpeg",
+                                                    "alt": "PropForge"
                                                   }
                                                 }
                                               ]
@@ -2197,7 +2197,7 @@
                               "id": "y7tl4cwwr",
                               "style": "",
                               "state": {
-                                "collapsed": false,
+                                "collapsed": true,
                                 "visible": true,
                                 "selected": false
                               },
@@ -2696,7 +2696,7 @@
                                       "id": "ej2ln7c7h",
                                       "style": "",
                                       "state": {
-                                        "collapsed": false,
+                                        "collapsed": true,
                                         "visible": true,
                                         "selected": false
                                       },
@@ -2771,7 +2771,7 @@
                                       "id": "wwc91h2qf",
                                       "style": "",
                                       "state": {
-                                        "collapsed": false,
+                                        "collapsed": true,
                                         "visible": true,
                                         "selected": false
                                       },
