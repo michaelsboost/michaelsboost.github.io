@@ -1704,7 +1704,7 @@
                                       "id": "yco6dnlp9",
                                       "style": "",
                                       "state": {
-                                        "collapsed": false,
+                                        "collapsed": true,
                                         "visible": true,
                                         "selected": false
                                       },
@@ -1737,7 +1737,7 @@
                                               "state": {
                                                 "collapsed": false,
                                                 "visible": true,
-                                                "selected": true
+                                                "selected": false
                                               },
                                               "name": "a",
                                               "type": "text",
@@ -1818,9 +1818,9 @@
                                               "type": "text",
                                               "text": "",
                                               "props": {
-                                                "href": "http://michaelsboost.github.io/svgMotion",
+                                                "href": "http://michaelsboost.github.io/TheTradingGame",
                                                 "target": "_blank",
-                                                "aria-label": "svgMotion"
+                                                "aria-label": "The Trading Game"
                                               },
                                               "children": [
                                                 {
@@ -1835,12 +1835,12 @@
                                                   "name": "img",
                                                   "type": "img",
                                                   "props": {
-                                                    "width": "1280",
-                                                    "height": "720",
+                                                    "width": "3134",
+                                                    "height": "2892",
                                                     "loading": "lazy",
                                                     "class": "rounded-xl w-full h-96 object-cover",
-                                                    "src": "https://raw.githubusercontent.com/michaelsboost/svgMotion/gh-pages/screenshots/preview.png",
-                                                    "alt": "svgMotion"
+                                                    "src": "https://raw.githubusercontent.com/michaelsboost/TheTradingGame/gh-pages/imgs/screenshot.jpeg",
+                                                    "alt": "The Trading Game"
                                                   }
                                                 }
                                               ]
@@ -2044,9 +2044,9 @@
                                               "type": "text",
                                               "text": "",
                                               "props": {
-                                                "href": "http://michaelsboost.github.io/Character-Party",
+                                                "href": "http://michaelsboost.github.io/SurvivalCards-Party",
                                                 "target": "_blank",
-                                                "aria-label": "Character Party"
+                                                "aria-label": "Survival Cards"
                                               },
                                               "children": [
                                                 {
@@ -2056,17 +2056,17 @@
                                                   "state": {
                                                     "collapsed": false,
                                                     "visible": true,
-                                                    "selected": false
+                                                    "selected": true
                                                   },
                                                   "name": "img",
                                                   "type": "img",
                                                   "props": {
-                                                    "width": "1418",
-                                                    "height": "745",
+                                                    "width": "1900",
+                                                    "height": "3558",
                                                     "loading": "lazy",
                                                     "class": "rounded-xl w-full h-96 object-cover",
-                                                    "src": "https://raw.githubusercontent.com/michaelsboost/Character-Party/gh-pages/imgs/screenshot.png",
-                                                    "alt": "Character Party"
+                                                    "src": "https://raw.githubusercontent.com/michaelsboost/SurvivalCards/main/imgs/screenshot.jpeg",
+                                                    "alt": "Survival Cards"
                                                   }
                                                 }
                                               ]
