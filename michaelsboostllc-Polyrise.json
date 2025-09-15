@@ -2005,7 +2005,7 @@
                                       "id": "gg9d92j9k",
                                       "style": "",
                                       "state": {
-                                        "collapsed": true,
+                                        "collapsed": false,
                                         "visible": true,
                                         "selected": false
                                       },
@@ -2044,9 +2044,9 @@
                                               "type": "text",
                                               "text": "",
                                               "props": {
-                                                "href": "http://michaelsboost.github.io/SurvivalCards-Party",
+                                                "href": "http://michaelsboost.github.io/the-deck-Party",
                                                 "target": "_blank",
-                                                "aria-label": "Survival Cards"
+                                                "aria-label": "The Deck"
                                               },
                                               "children": [
                                                 {
@@ -2056,7 +2056,7 @@
                                                   "state": {
                                                     "collapsed": false,
                                                     "visible": true,
-                                                    "selected": true
+                                                    "selected": false
                                                   },
                                                   "name": "img",
                                                   "type": "img",
@@ -2065,8 +2065,8 @@
                                                     "height": "3558",
                                                     "loading": "lazy",
                                                     "class": "rounded-xl w-full h-96 object-cover",
-                                                    "src": "https://raw.githubusercontent.com/michaelsboost/SurvivalCards/main/imgs/screenshot.jpeg",
-                                                    "alt": "Survival Cards"
+                                                    "src": "https://raw.githubusercontent.com/michaelsboost/the-deck/main/imgs/screenshot.jpeg",
+                                                    "alt": "The Deck"
                                                   }
                                                 }
                                               ]
