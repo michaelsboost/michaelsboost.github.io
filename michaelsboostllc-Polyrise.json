@@ -1719,7 +1719,7 @@
                                       "children": [
                                         {
                                           "tag": "figure",
-                                          "id": "a1fnurvg9",
+                                          "id": "v3rda4vic",
                                           "style": "",
                                           "state": {
                                             "collapsed": false,
@@ -1732,7 +1732,7 @@
                                           "children": [
                                             {
                                               "tag": "a",
-                                              "id": "w1nkh4ubt",
+                                              "id": "ki7clkp7m",
                                               "style": "",
                                               "state": {
                                                 "collapsed": false,
@@ -1743,14 +1743,90 @@
                                               "type": "text",
                                               "text": "",
                                               "props": {
-                                                "href": "http://michaelsboost.github.io/PropForge",
+                                                "href": "http://michaelsboost.github.io/ChartDojo",
+                                                "target": "_blank",
+                                                "aria-label": "ChartDojo"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "img",
+                                                  "id": "ljtjgzmh8",
+                                                  "style": "",
+                                                  "state": {
+                                                    "collapsed": false,
+                                                    "visible": true,
+                                                    "selected": false
+                                                  },
+                                                  "name": "img",
+                                                  "type": "img",
+                                                  "props": {
+                                                    "width": "3134",
+                                                    "height": "2892",
+                                                    "loading": "lazy",
+                                                    "class": "rounded-xl w-full h-96 object-cover",
+                                                    "src": "https://raw.githubusercontent.com/michaelsboost/ChartDojo/main/imgs/screenshot-2.jpeg",
+                                                    "alt": "ChartDojo"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "selected": false
+                                    },
+                                    {
+                                      "tag": "section",
+                                      "id": "ojtsvnhw1",
+                                      "style": "",
+                                      "state": {
+                                        "collapsed": false,
+                                        "visible": true,
+                                        "selected": false
+                                      },
+                                      "name": "section",
+                                      "type": "box",
+                                      "text": "",
+                                      "props": {
+                                        "class": "rounded-xl border-gray-200",
+                                        ":class": "{'border-gray-800': dark}",
+                                        "data-section": "animate"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "figure",
+                                          "id": "bburopzpr",
+                                          "style": "",
+                                          "state": {
+                                            "collapsed": false,
+                                            "visible": true,
+                                            "selected": false
+                                          },
+                                          "name": "figure",
+                                          "type": "box",
+                                          "text": "",
+                                          "children": [
+                                            {
+                                              "tag": "a",
+                                              "id": "ra75e557h",
+                                              "style": "",
+                                              "state": {
+                                                "collapsed": false,
+                                                "visible": true,
+                                                "selected": false
+                                              },
+                                              "name": "a",
+                                              "type": "text",
+                                              "text": "",
+                                              "props": {
+                                                "href": "http://michaelsboost.github.io/PropForge/",
                                                 "target": "_blank",
                                                 "aria-label": "PropForge"
                                               },
                                               "children": [
                                                 {
                                                   "tag": "img",
-                                                  "id": "m70w79wmo",
+                                                  "id": "zvbxgltpu",
                                                   "style": "",
                                                   "state": {
                                                     "collapsed": false,
@@ -1772,82 +1848,8 @@
                                             }
                                           ]
                                         }
-                                      ]
-                                    },
-                                    {
-                                      "tag": "section",
-                                      "id": "ojtsvnhw1",
-                                      "style": "",
-                                      "state": {
-                                        "collapsed": true,
-                                        "visible": true,
-                                        "selected": false
-                                      },
-                                      "name": "section",
-                                      "type": "box",
-                                      "text": "",
-                                      "props": {
-                                        "class": "rounded-xl border-gray-200",
-                                        ":class": "{'border-gray-800': dark}",
-                                        "data-section": "animate"
-                                      },
-                                      "children": [
-                                        {
-                                          "tag": "figure",
-                                          "id": "u6txmr7lu",
-                                          "style": "",
-                                          "state": {
-                                            "collapsed": false,
-                                            "visible": true,
-                                            "selected": false
-                                          },
-                                          "name": "figure",
-                                          "type": "box",
-                                          "text": "",
-                                          "children": [
-                                            {
-                                              "tag": "a",
-                                              "id": "m1dkha8cn",
-                                              "style": "",
-                                              "state": {
-                                                "collapsed": false,
-                                                "visible": true,
-                                                "selected": false
-                                              },
-                                              "name": "a",
-                                              "type": "text",
-                                              "text": "",
-                                              "props": {
-                                                "href": "http://michaelsboost.github.io/TheTradingGame",
-                                                "target": "_blank",
-                                                "aria-label": "The Trading Game"
-                                              },
-                                              "children": [
-                                                {
-                                                  "tag": "img",
-                                                  "id": "jmz8d1deq",
-                                                  "style": "",
-                                                  "state": {
-                                                    "collapsed": false,
-                                                    "visible": true,
-                                                    "selected": false
-                                                  },
-                                                  "name": "img",
-                                                  "type": "img",
-                                                  "props": {
-                                                    "width": "3134",
-                                                    "height": "2892",
-                                                    "loading": "lazy",
-                                                    "class": "rounded-xl w-full h-96 object-cover",
-                                                    "src": "https://raw.githubusercontent.com/michaelsboost/TheTradingGame/gh-pages/imgs/screenshot.jpeg",
-                                                    "alt": "The Trading Game"
-                                                  }
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
+                                      ],
+                                      "selected": false
                                     },
                                     {
                                       "tag": "section",
