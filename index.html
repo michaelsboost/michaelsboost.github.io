@@ -131,7 +131,9 @@
         <!-- screens -->
         <article x-data="observeSections()" x-init="init()">
           <!-- bio -->
-          <div x-show="view &amp;&amp; window.location.hash === '#bio'" data-view="bio">
+          <div x-show="view &amp;&amp; window.location.hash === '#bio'" data-view="bio" :class="{
+                  'fade-in': view &amp;&amp; window.location.hash === '#bio'
+              }">
             <section class="max-w-7xl mx-auto">
               <!-- Header -->
               <h1 class="py-4 text-center m-auto text-5xl mb-12 leading-tight uppercase font-extrabold">
@@ -141,7 +143,7 @@
               <!-- Main Content -->
               <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center px-4 mb-16">
                 <!-- Profile Image -->
-                <div class="relative group" data-section="animate">
+                <div class="relative group">
                   <div class="relative overflow-hidden rounded-2xl transform group-hover:scale-105 transition-transform duration-500">
                     <img width="504" height="627" loading="lazy" class="w-full h-auto rounded-2xl shadow-2xl" src="imgs/avatar.jpg" alt="Michael Schwartz">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -149,12 +151,12 @@
                 </div>
           
                 <!-- Bio Text -->
-                <div class="space-y-6" data-section="animate">
+                <div class="space-y-6">
                   <p class="text-xl leading-relaxed" :class="{'text-gray-300': dark, 'text-gray-600': !dark}">
-                    <span class="bio-text">&nbsp;I'm Michael Schwartz, a multi-talented creator and influencer with a passion for sharing knowledge. From my ebooks and courses to interviews with industry leaders like Christianna Hurt, Nolan Sandburn and Daniel Davis, my expertise spans day trading success, open-source software development, and much more.</span>
+                    <span class="type-it">&nbsp;I'm Michael Schwartz, a multi-talented creator and influencer with a passion for sharing knowledge. From my ebooks and courses to interviews with industry leaders like Christianna Hurt, Nolan Sandburn and Daniel Davis, my expertise spans day trading success, open-source software development, and much more.</span>
                   </p>
                   <p class="text-xl leading-relaxed" :class="{'text-gray-300': dark, 'text-gray-600': !dark}">
-                    <span class="bio-text">&nbsp;Discover the strategies and insights that have earned my apps recognition on sites like MakeUseOf, OMGUbuntu, and Web Designer Depot. Join me in the pursuit of excellence across all aspects of life – because a life well-lived is a masterpiece in the making.</span>
+                    <span class="type-it">&nbsp;Discover the strategies and insights that have earned my apps recognition on sites like MakeUseOf, OMGUbuntu, and Web Designer Depot. Join me in the pursuit of excellence across all aspects of life – because a life well-lived is a masterpiece in the making.</span>
                   </p>
                   
                   <!-- Quick Stats -->
@@ -176,7 +178,7 @@
               </div>
           
               <!-- Topstep Certificate -->
-              <div class="max-w-4xl mx-auto mb-16 px-4" data-section="animate">
+              <div class="max-w-4xl mx-auto mb-16 px-4">
                 <h1 class="py-4 text-center m-auto text-5xl mb-12 leading-tight uppercase font-extrabold">
                   Proven Trading Success
                 </h1>
@@ -197,7 +199,7 @@
                 <hr class="my-8 border-gray-300 dark:border-gray-700">
           
                 <!-- Email Signup -->
-                <div class="mb-12" data-section="animate">
+                <div class="mb-12">
                   <form action="https://app.gumroad.com/follow_from_embed_form" method="post" class="w-full" id="gumroad-follow-form-embed">
                     <input type="hidden" name="seller_id" value="6588415988250">
                     <div class="flex flex-col md:flex-row gap-4 max-w-2xl mx-auto">
@@ -210,7 +212,7 @@
                 </div>
           
                 <!-- Social Media Links -->
-                <div class="mx-auto my-8 w-full grid grid-cols-4 md:grid-cols-8 place-items-center gap-6 p-4" data-section="animate">
+                <div class="mx-auto my-8 w-full grid grid-cols-4 md:grid-cols-8 place-items-center gap-6 p-4">
                 <!-- tiktok -->
                 <a aria-label="tiktok" href="https://www.tiktok.com/@michaelsboost" target="_blank">
                   <svg class="h-6 md:h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -267,7 +269,9 @@
         </div>
 
           <!-- free -->
-          <div x-show="view &amp;&amp; window.location.hash === '#free'" data-view="free">
+          <div x-show="view &amp;&amp; window.location.hash === '#free'" data-view="free" :class="{
+                  'fade-in': view &amp;&amp; window.location.hash === '#free'
+              }">
     
             <!-- Main Content Container -->
             <div class="flex flex-col">
@@ -295,7 +299,7 @@
               <main class="flex-1 px-6 py-12">
                 
                 <!-- Apps Category -->
-                <div x-show="activeCategory === 'apps'" class="space-y-12 animate-fade-in">
+                <div x-show="activeCategory === 'apps'" class="space-y-12 fade-in">
                   
                   <!-- Featured App - Hero Section -->
                   <section class="max-w-7xl mx-auto mb-20">
@@ -319,8 +323,7 @@
                         <h2 class="text-5xl font-black leading-tight" :class="{'text-white': dark, 'text-gray-900': !dark}">
                           Beacon <span class="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Survival</span>
                         </h2>
-                        <p class="text-xl leading-relaxed" :class="{'text-gray-300': dark, 'text-gray-600': !dark}">
-                          An interactive survival training tool with guides, training simulations, emergency checklists, and scenario-based challenges. 
+                        <p class="type-it text-xl leading-relaxed" :class="{'text-gray-300': dark, 'text-gray-600': !dark}">&nbsp;An interactive survival training tool with guides, training simulations, emergency checklists, and scenario-based challenges. 
                           Built entirely with kodeWeave and featuring real-time progress tracking, skill meters, and PWA support.
                         </p>
                         
@@ -385,7 +388,7 @@
                 </div>
           
                 <!-- Books Category -->
-                <div x-show="activeCategory === 'books'" class="space-y-12 animate-fade-in">
+                <div x-show="activeCategory === 'books'" class="space-y-12 fade-in">
                   
                   <!-- Featured Book -->
                   <section class="max-w-7xl mx-auto mb-20">
@@ -406,8 +409,7 @@
                         <h2 class="text-5xl font-black leading-tight" :class="{'text-white': dark, 'text-gray-900': !dark}">
                           Survival <span class="bg-gradient-to-r from-amber-400 to-orange-400 bg-clip-text text-transparent">Blueprint</span>
                         </h2>
-                        <p class="text-xl leading-relaxed" :class="{'text-gray-300': dark, 'text-gray-600': !dark}">
-                          The ultimate guide to self-reliance in both wilderness and modern environments. Master essential survival skills, from basic first aid to advanced wilderness tactics.
+                        <p class="text-xl leading-relaxed type-it" :class="{'text-gray-300': dark, 'text-gray-600': !dark}">&nbsp;The ultimate guide to self-reliance in both wilderness and modern environments. Master essential survival skills, from basic first aid to advanced wilderness tactics.
                         </p>
                         
                         <div class="flex items-center space-x-4 text-sm" :class="{'text-gray-400': dark, 'text-gray-500': !dark}">
@@ -463,7 +465,9 @@
           </div>
 
           <!-- store -->
-          <div x-show="view &amp;&amp; window.location.hash === '#store'" data-view="store">
+          <div x-show="view &amp;&amp; window.location.hash === '#store'" data-view="store" :class="{
+                  'fade-in': view &amp;&amp; window.location.hash === '#store'
+              }">
             <!-- Courses Section -->
             <section class="max-w-7xl mx-auto mb-16">
               <h1 class="py-4 text-center m-auto text-5xl mb-12 leading-tight uppercase font-extrabold">
@@ -491,7 +495,7 @@
                     <h2 class="text-4xl font-bold" :class="{'text-white': dark, 'text-gray-900': !dark}" x-text="course.title">
                     </h2>
                     
-                    <p class="text-lg leading-relaxed" :class="{'text-gray-300': dark, 'text-gray-600': !dark}" x-text="course.description">
+                    <p class="text-lg leading-relaxed type-it" :class="{'text-gray-300': dark, 'text-gray-600': !dark}" x-text="course.description">
                     </p>
           
                     <div class="flex flex-wrap gap-2">
@@ -587,7 +591,9 @@
           </div>
 
           <!-- art -->
-          <div x-show="view &amp;&amp; window.location.hash === '#art'" data-view="art">
+          <div x-show="view &amp;&amp; window.location.hash === '#art'" data-view="art" :class="{
+                  'fade-in': view &amp;&amp; window.location.hash === '#art'
+              }">
             <section class="max-w-7xl mx-auto">
               <!-- Header -->
               <h1 class="py-4 text-center m-auto text-5xl mb-12 leading-tight uppercase font-extrabold">
@@ -597,7 +603,7 @@
               <!-- Art Grid -->
               <div class="grid grid-cols-1 md:grid-cols-2 gap-6 px-4">
                 <template x-for="art in artData" :key="art.title">
-                  <div class="group relative" data-section="animate">
+                  <div class="group relative">
                     <div class="relative overflow-hidden rounded-2xl transform group-hover:scale-105 transition-transform duration-500">
                       <a :href="art.link" target="_blank">
                         <img width="500" height="500" loading="lazy" class="h-full object-cover" :src="art.image" :alt="art.title">
@@ -623,7 +629,9 @@
           </div>
 
           <!-- interviews -->
-          <div x-show="view &amp;&amp; window.location.hash === '#interviews'" data-view="interviews">
+          <div x-show="view &amp;&amp; window.location.hash === '#interviews'" data-view="interviews" :class="{
+                  'fade-in': view &amp;&amp; window.location.hash === '#interviews'
+              }">
             <section class="max-w-7xl mx-auto">
               <h1 class="py-4 text-center m-auto text-5xl mb-12 leading-tight uppercase font-extrabold">
                 Featured Interviews

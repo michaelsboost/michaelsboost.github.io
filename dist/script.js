@@ -1,4 +1,3 @@
-
 function App() {
   return {
     dark: JSON.parse(localStorage.getItem("michaelsboost-darkTheme")) ?? true,
@@ -18,7 +17,6 @@ function App() {
     setView() {
       if (!window.location.hash) {
         window.location.hash = "#bio";
-        this.view = "#bio";
       }
     },
     icons: {
@@ -370,7 +368,7 @@ document.addEventListener("alpine:init", () => {
       // Initialize typewriter after a small delay to ensure DOM is ready
       setTimeout(() => {
         initSimpleTypewriter();
-      }, 500);
+      }, 100);
     },
     handleHashChange() {
       this.view = window.location.hash;
@@ -383,6 +381,9 @@ document.addEventListener("alpine:init", () => {
     observeSections() {
       const headers = document.querySelectorAll("h1");
       const sections = document.querySelectorAll(`[data-view]`);
+
+      // Don't animate sections if we're on #view (we'll use fade instead)
+      if (this.view === '#view') return;
 
       // Wrap each character in divs for headers
       headers.forEach((header) => {
@@ -401,7 +402,7 @@ document.addEventListener("alpine:init", () => {
           { opacity: 1, scale: 1, y: 0, duration, ease, stagger },
         );
       };
-
+      
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
@@ -409,21 +410,6 @@ document.addEventListener("alpine:init", () => {
               if (entry.target.tagName === "H1") {
                 animateItems(
                   entry.target.querySelectorAll("div"),
-                  90,
-                  2,
-                  "elastic.out(1.2, 0.5)",
-                  0.03,
-                );
-              } else {
-                // animateItems(
-                //   entry.target.querySelectorAll('[data-section="animate"], .group.relative'),
-                //   50,
-                //   1,
-                //   "power4.out",
-                //   0.1,
-                // );
-                animateItems(
-                  entry.target.querySelectorAll('[data-section="animate"], .group.relative'),
                   90,
                   2,
                   "elastic.out(1.2, 0.5)",
@@ -443,9 +429,9 @@ document.addEventListener("alpine:init", () => {
 
 // Typewriter Animation
 function initSimpleTypewriter() {
-  const bioElements = document.querySelectorAll('.bio-text');
+  const typeElements = document.querySelectorAll('.type-it');
   
-  bioElements.forEach((element, index) => {
+  typeElements.forEach((element, index) => {
     const text = element.textContent;
     element.textContent = '';
     
@@ -478,7 +464,3 @@ function typeWriterEffect(element, text, delay) {
     type();
   }, delay);
 }
-
-// test
-// window.location.hash = "#art";
-
