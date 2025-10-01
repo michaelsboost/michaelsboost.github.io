@@ -1,3 +1,74 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+h1, .inter {
+  font-family: 'Inter', sans-serif!important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+header a:hover,
+footer a:hover {
+  transform: scale(1.1);
+}
+
+header a:hover > svg path:not(.no-animation),
+footer a:hover > svg path:not(.no-animation) {
+  transform: scale(1.0);
+  transform-origin: center center;
+  animation: pop 0.3s ease;
+}
+
+[data-view="bio"] a:hover svg:not(.no-animation) {
+  transform: scale(1.25);
+  animation: pop 0.3s ease;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(2) rotate(360deg);
+  }
+  100% {
+    transform: scale(1.5) rotate(0deg);
+  }
+}
+
+.type-it {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.6;
+}
+
+/* Add blinking cursor during animation */
+.type-it::after {
+  content: '|';
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeInUp 1.25s ease-out forwards;
+}
