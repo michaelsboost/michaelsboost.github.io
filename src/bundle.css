@@ -72,6 +72,21 @@ footer a:hover > svg path:not(.no-animation) {
 .fade-in {
   animation: fadeInUp 1.25s ease-out forwards;
 }
-  @tailwind base;
+
+:root {
+  --theme-transition-speed: 0.25s;
+  --theme-transition-timing: ease-in-out;
+}
+
+/* Graceful Theme Transition */
+* {
+  transition: background-color var(--theme-transition-speed) var(--theme-transition-timing), 
+              color var(--theme-transition-speed) var(--theme-transition-timing), 
+              border-color var(--theme-transition-speed) var(--theme-transition-timing),
+              fill var(--theme-transition-speed) var(--theme-transition-timing),
+              stroke var(--theme-transition-speed) var(--theme-transition-timing);
+}
+
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
