@@ -111,18 +111,18 @@ function App() {
         color: 'yellow'
       },
       {
+        name: 'Chimp Memory Test',
+        description: 'Visual memory challenge inspired by chimpanzee cognition research',
+        image: 'https://raw.githubusercontent.com/michaelsboost/ChimpMemoryTest/main/imgs/screenshot.jpeg',
+        url: 'https://michaelsboost.github.io/ChimpMemoryTest/',
+        color: 'pink'
+      },
+      {
         name: 'Decision Wheel',
         description: 'A mystical yes/no spinner with GSAP, Howler, and confetti.',
         url: 'https://michaelsboost.com/DecisionWheel/',
         image: 'https://raw.githubusercontent.com/michaelsboost/DecisionWheel/main/imgs/screenshot.jpeg',
         color: 'purple'
-      },
-      {
-        name: 'Character Party',
-        description: 'Creative brainstorming tool for generating unique character combinations.',
-        image: 'https://raw.githubusercontent.com/michaelsboost/Character-Party/gh-pages/imgs/screenshot.png',
-        url: 'https://michaelsboost.github.io/Character-Party/',
-        color: 'pink'
       }
     ],
     books: [
