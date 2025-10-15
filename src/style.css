@@ -8,11 +8,14 @@ body {
 
 a {
   display: inline-block;
+}
+a, [data-view="nav"] img {
   transition: transform 0.3s ease;
 }
 
 header a:hover,
-footer a:hover {
+footer a:hover,
+[data-view="nav"] img:hover {
   transform: scale(1.1);
 }
 
@@ -23,10 +26,30 @@ footer a:hover > svg path:not(.no-animation) {
   animation: pop 0.3s ease;
 }
 
-[data-view="bio"] a:hover svg:not(.no-animation) {
+[data-view="bio"] a:hover svg:not(.no-animation),
+[data-view="nav"] a:hover svg:not(.no-animation) {
   transform: scale(1.25);
   animation: pop 0.3s ease;
 }
+
+.nav {
+  padding: 1rem 2rem; 
+  margin-top: 1rem; 
+  width: 100%; 
+  border-width: 1px; 
+  border-style: solid; 
+  line-height: 1.5; 
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms; 
+  transition-duration: 150ms; 
+}
+
+[data-theme=light] .nav { border-color: #000; }
+[data-theme=light] .nav:hover { color:#fff; background:#000; }
+
+[data-theme=dark] .nav { border-color: #fff; }
+[data-theme=dark] .nav:hover { color:#000; background:#fff; }
 
 @keyframes pop {
   0% {
@@ -71,4 +94,18 @@ footer a:hover > svg path:not(.no-animation) {
 
 .fade-in {
   animation: fadeInUp 1.25s ease-out forwards;
+}
+
+:root {
+  --theme-transition-speed: 0.25s;
+  --theme-transition-timing: ease-in-out;
+}
+
+/* Graceful Theme Transition */
+* {
+  transition: background-color var(--theme-transition-speed) var(--theme-transition-timing), 
+              color var(--theme-transition-speed) var(--theme-transition-timing), 
+              border-color var(--theme-transition-speed) var(--theme-transition-timing),
+              fill var(--theme-transition-speed) var(--theme-transition-timing),
+              stroke var(--theme-transition-speed) var(--theme-transition-timing);
 }
