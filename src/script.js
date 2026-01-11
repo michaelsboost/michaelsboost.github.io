@@ -112,18 +112,18 @@ function App() {
         color: 'yellow'
       },
       {
-        name: 'Character Party',
-        description: 'Creative brainstorming tool for generating unique character combinations.',
-        image: 'https://raw.githubusercontent.com/michaelsboost/Character-Party/gh-pages/imgs/screenshot.png',
-        url: 'https://michaelsboost.github.io/Character-Party/',
-        color: 'pink'
+        name: 'Urban Forager',
+        description: 'Learn 45+ urban weeds with a plant library, photos, and quizzes covering ID, lookalikes, edibility, medicinal uses, nutrients, and safety.',
+        url: 'https://michaelsboost.com/Urban-Forager/',
+        image: 'https://raw.githubusercontent.com/michaelsboost/Urban-Forager/main/imgs/screenshot.jpeg',
+        color: 'green'
       },
       {
-        name: 'Decision Wheel',
-        description: 'A mystical yes/no spinner with GSAP, Howler, and confetti.',
-        url: 'https://michaelsboost.com/DecisionWheel/',
-        image: 'https://raw.githubusercontent.com/michaelsboost/DecisionWheel/main/imgs/screenshot.jpeg',
-        color: 'purple'
+        name: 'Chimp Memory Test',
+        description: 'A visual memory game inspired by chimp vs human cognition research.',
+        url: 'https://michaelsboost.com/ChimpMemoryTest/',
+        image: 'https://raw.githubusercontent.com/michaelsboost/ChimpMemoryTest/main/imgs/screenshot.jpeg',
+        color: 'orange'
       }
     ],
     books: [
