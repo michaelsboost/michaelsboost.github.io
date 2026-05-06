@@ -84,10 +84,10 @@ function App() {
         color: 'indigo'
       },
       {
-        name: 'UpOrDown',
-        description: 'Random trading simulator testing profitability through money management alone',
-        image: 'https://raw.githubusercontent.com/michaelsboost/UpOrDown/main/imgs/screenshot.jpeg',
-        url: 'https://michaelsboost.github.io/UpOrDown/',
+        name: 'The Trading Game',
+        description: 'Binary options simulator focused on edge, payouts, and probability',
+        image: 'https://raw.githubusercontent.com/michaelsboost/TheTradingGame/gh-pages/imgs/screenshot.jpeg',
+        url: 'https://michaelsboost.github.io/TheTradingGame/',
         color: 'purple'
       },
       {
