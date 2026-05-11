@@ -109,7 +109,7 @@ function App() {
         description: 'Hub for card-based games and conversation apps',
         image: 'https://raw.githubusercontent.com/michaelsboost/the-deck/main/imgs/screenshot.jpeg',
         url: 'http://michaelsboost.github.io/the-deck',
-        color: 'yellow'
+        color: 'orange'
       },
       {
         name: 'Urban Forager',
@@ -119,11 +119,11 @@ function App() {
         color: 'green'
       },
       {
-        name: 'Chimp Memory Test',
-        description: 'A visual memory game inspired by chimp vs human cognition research.',
-        url: 'https://michaelsboost.com/ChimpMemoryTest/',
-        image: 'https://raw.githubusercontent.com/michaelsboost/ChimpMemoryTest/main/imgs/screenshot.jpeg',
-        color: 'orange'
+        name: 'LifeOS',
+        description: 'Personal resilience dashboard for budgeting, pantry tracking, emergency prep, habits, and home inventory - offline-first & privacy-focused.',
+        url: 'https://michaelsboost.com/LifeOS/',
+        image: 'https://raw.githubusercontent.com/michaelsboost/lifeos/main/imgs/screenshot.jpeg',
+        color: 'emerald'
       }
     ],
     books: [
