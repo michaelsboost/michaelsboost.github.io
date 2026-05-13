@@ -70,10 +70,10 @@ function App() {
         color: 'green'
       },
       {
-        name: 'PropForge',
-        description: 'Trader training simulator for prop firm evaluation tests',
-        image: 'https://raw.githubusercontent.com/michaelsboost/PropForge/main/imgs/screenshot.jpeg',
-        url: 'http://michaelsboost.github.io/PropForge/',
+        name: 'Strategy Arena',
+        description: 'Monte Carlo trading strategy stress testing laboratory',
+        image: 'https://raw.githubusercontent.com/michaelsboost/StrategyArena/main/imgs/screenshot.jpeg',
+        url: 'https://michaelsboost.com/StrategyArena/',
         color: 'blue'
       },
       {
