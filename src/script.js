@@ -56,6 +56,20 @@ function App() {
         color: 'purple'
       },
       {
+        name: 'CamDesk',
+        description: 'Privacy-first webcam studio with photo capture, video recording, Picture-in-Picture, offline support, and PWA installation.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/CamDesk/gh-pages/imgs/screenshot.png',
+        url: 'https://michaelsboost.com/CamDesk',
+        color: 'cyan'
+      },
+      {
+        name: 'Budjut',
+        description: 'Smart budgeting without the noise. Track income, expenses, savings goals, and financial health privately in your browser.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/Budjut/gh-pages/imgs/screenshot.jpeg',
+        url: 'https://michaelsboost.com/Budjut/',
+        color: 'emerald'
+      },
+      {
         name: 'Compound Calculator',
         description: 'Compound growth planner for disciplined trading strategies',
         image: 'https://raw.githubusercontent.com/michaelsboost/CompoundCalculator/main/screenshot.png',
@@ -109,7 +123,7 @@ function App() {
         description: 'Hub for card-based games and conversation apps',
         image: 'https://raw.githubusercontent.com/michaelsboost/the-deck/main/imgs/screenshot.jpeg',
         url: 'http://michaelsboost.github.io/the-deck',
-        color: 'orange'
+        color: 'yellow'
       },
       {
         name: 'Urban Forager',
@@ -119,11 +133,39 @@ function App() {
         color: 'green'
       },
       {
+        name: 'Chimp Memory Test',
+        description: 'A visual memory game inspired by chimp vs human cognition research.',
+        url: 'https://michaelsboost.com/ChimpMemoryTest/',
+        image: 'https://raw.githubusercontent.com/michaelsboost/ChimpMemoryTest/main/imgs/screenshot.jpeg',
+        color: 'orange'
+      },
+      {
+        name: 'Character Party',
+        description: 'Creative brainstorming tool for generating unique character combinations.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/Character-Party/gh-pages/imgs/screenshot.png',
+        url: 'https://michaelsboost.github.io/Character-Party/',
+        color: 'pink'
+      },
+      {
+        name: 'Decision Wheel',
+        description: 'A mystical yes/no spinner with GSAP, Howler, and confetti.',
+        url: 'https://michaelsboost.com/DecisionWheel/',
+        image: 'https://raw.githubusercontent.com/michaelsboost/DecisionWheel/main/imgs/screenshot.jpeg',
+        color: 'purple'
+      },
+      {
         name: 'LifeOS',
-        description: 'Personal resilience dashboard for budgeting, pantry tracking, emergency prep, habits, and home inventory - offline-first & privacy-focused.',
-        url: 'https://michaelsboost.com/LifeOS/',
+        description: 'Personal resilience dashboard combining budgeting, pantry tracking, emergency preparedness, habits, inventory, and notes.',
         image: 'https://raw.githubusercontent.com/michaelsboost/lifeos/main/imgs/screenshot.jpeg',
-        color: 'emerald'
+        url: 'https://michaelsboost.com/lifeos',
+        color: 'lime'
+      },
+      {
+        name: 'Rockford Resilience Hub',
+        description: 'Offline-first community resource hub connecting Rockford residents to food, shelter, aid, health, and resilience resources.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/RockfordResilienceHub/main/imgs/screenshot.jpeg',
+        url: 'https://michaelsboost.com/RockfordResilienceHub/',
+        color: 'violet'
       }
     ],
     books: [
