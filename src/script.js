@@ -91,6 +91,13 @@ function App() {
         color: 'blue'
       },
       {
+        name: 'Civilis',
+        description: 'Monte Carlo civilization simulator modeling collapse dynamics, sustainability, governance systems, ecological overshoot, and Kardashev-scale progression.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/Civilis/main/imgs/short.png',
+        url: 'https://michaelsboost.com/Civilis/',
+        color: 'purple'
+      },
+      {
         name: 'AlgoArena',
         description: 'Strategy testing arena comparing trading bots vs human decisions',
         image: 'https://raw.githubusercontent.com/michaelsboost/AlgoArena/main/imgs/screenshot.jpeg',
@@ -145,13 +152,6 @@ function App() {
         image: 'https://raw.githubusercontent.com/michaelsboost/Character-Party/gh-pages/imgs/screenshot.png',
         url: 'https://michaelsboost.github.io/Character-Party/',
         color: 'pink'
-      },
-      {
-        name: 'Decision Wheel',
-        description: 'A mystical yes/no spinner with GSAP, Howler, and confetti.',
-        url: 'https://michaelsboost.com/DecisionWheel/',
-        image: 'https://raw.githubusercontent.com/michaelsboost/DecisionWheel/main/imgs/screenshot.jpeg',
-        color: 'purple'
       },
       {
         name: 'LifeOS',
