@@ -70,6 +70,13 @@ function App() {
         color: 'emerald'
       },
       {
+        name: 'Civilis',
+        description: 'Monte Carlo civilization simulator modeling collapse risk, sustainability, resilience, governance systems, and Kardashev-scale energy progression.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/Civilis/main/imgs/short.png',
+        url: 'https://michaelsboost.com/Civilis/',
+        color: 'sky'
+      },
+      {
         name: 'Compound Calculator',
         description: 'Compound growth planner for disciplined trading strategies',
         image: 'https://raw.githubusercontent.com/michaelsboost/CompoundCalculator/main/screenshot.png',
@@ -84,18 +91,18 @@ function App() {
         color: 'green'
       },
       {
+        name: 'CandleEdge',
+        description: 'Client-side candlestick and market structure analysis engine with historical probability statistics, pattern detection, chart overlays, and transparent deterministic analytics.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/CandleEdge/main/imgs/banner.png',
+        url: 'https://michaelsboost.com/CandleEdge/',
+        color: 'amber'
+      },
+      {
         name: 'Strategy Arena',
         description: 'Monte Carlo trading strategy stress testing laboratory',
         image: 'https://raw.githubusercontent.com/michaelsboost/StrategyArena/main/imgs/screenshot.jpeg',
         url: 'https://michaelsboost.com/StrategyArena/',
         color: 'blue'
-      },
-      {
-        name: 'Civilis',
-        description: 'Monte Carlo civilization simulator modeling collapse dynamics, sustainability, governance systems, ecological overshoot, and Kardashev-scale progression.',
-        image: 'https://raw.githubusercontent.com/michaelsboost/Civilis/main/imgs/short.png',
-        url: 'https://michaelsboost.com/Civilis/',
-        color: 'purple'
       },
       {
         name: 'AlgoArena',
@@ -110,6 +117,13 @@ function App() {
         image: 'https://raw.githubusercontent.com/michaelsboost/TheTradingGame/gh-pages/imgs/screenshot.jpeg',
         url: 'https://michaelsboost.github.io/TheTradingGame/',
         color: 'purple'
+      },
+      {
+        name: '50/50 Experiment',
+        description: 'Probability and randomness simulator exploring streaks, variance, outcomes, and statistical behavior over time.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/5050/main/imgs/screenshot.png',
+        url: 'https://michaelsboost.com/5050/',
+        color: 'rose'
       },
       {
         name: 'RITE',
@@ -152,6 +166,13 @@ function App() {
         image: 'https://raw.githubusercontent.com/michaelsboost/Character-Party/gh-pages/imgs/screenshot.png',
         url: 'https://michaelsboost.github.io/Character-Party/',
         color: 'pink'
+      },
+      {
+        name: 'Decision Wheel',
+        description: 'A mystical yes/no spinner with GSAP, Howler, and confetti.',
+        url: 'https://michaelsboost.com/DecisionWheel/',
+        image: 'https://raw.githubusercontent.com/michaelsboost/DecisionWheel/main/imgs/screenshot.jpeg',
+        color: 'purple'
       },
       {
         name: 'LifeOS',
