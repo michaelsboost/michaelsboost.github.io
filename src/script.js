@@ -175,10 +175,10 @@ function App() {
         color: 'purple'
       },
       {
-        name: 'LifeOS',
-        description: 'Personal resilience dashboard combining budgeting, pantry tracking, emergency preparedness, habits, inventory, and notes.',
-        image: 'https://raw.githubusercontent.com/michaelsboost/lifeos/main/imgs/screenshot.jpeg',
-        url: 'https://michaelsboost.com/lifeos',
+        name: 'Motiv8',
+        description: 'Mindset switcher for focus, discipline, resilience, recovery, confidence, and presence with motivational quotes and offline PWA support.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/motiv8/main/imgs/screenshot.jpeg',
+        url: 'https://michaelsboost.com/motiv8/',
         color: 'lime'
       },
       {
