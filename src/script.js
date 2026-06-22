@@ -1,4 +1,4 @@
-function App() {
+window.App = function App() {
   return {
     dark: JSON.parse(localStorage.getItem("michaelsboost-darkTheme")) ?? true,
     init() {
@@ -65,7 +65,7 @@ function App() {
       {
         name: 'Budjut',
         description: 'Smart budgeting without the noise. Track income, expenses, savings goals, and financial health privately in your browser.',
-        image: 'https://raw.githubusercontent.com/michaelsboost/Budjut/gh-pages/imgs/screenshot.jpeg',
+        image: 'https://raw.githubusercontent.com/michaelsboost/Budjut/gh-pages/imgs/header.png',
         url: 'https://michaelsboost.com/Budjut/',
         color: 'emerald'
       },
@@ -154,11 +154,11 @@ function App() {
         color: 'green'
       },
       {
-        name: 'Chimp Memory Test',
-        description: 'A visual memory game inspired by chimp vs human cognition research.',
-        url: 'https://michaelsboost.com/ChimpMemoryTest/',
-        image: 'https://raw.githubusercontent.com/michaelsboost/ChimpMemoryTest/main/imgs/screenshot.jpeg',
-        color: 'orange'
+        name: 'Love, Dad.',
+        description: 'Daily emotional support and confidence-building messages for your child.',
+        url: 'https://michaelsboost.com/lovedad/',
+        image: 'https://raw.githubusercontent.com/michaelsboost/lovedad/main/imgs/header.png',
+        color: 'rose'
       },
       {
         name: 'Character Party',
