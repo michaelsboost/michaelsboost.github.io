@@ -42,32 +42,25 @@ window.App = function App() {
     categories: ['apps', 'books'],
     apps: [
       {
-        name: 'kodeWeave',
-        description: 'A revolutionary live coding playground',
-        image: 'https://raw.githubusercontent.com/michaelsboost/kodeWeave/main/imgs/header.png',
-        url: 'https://michaelsboost.com/kodeWeave/',
-        color: 'yellow'
-      },
-      {
-        name: 'Polyrise',
-        description: 'Build websites with modular components and visual editing',
-        image: 'https://raw.githubusercontent.com/michaelsboost/Polyrise/gh-pages/imgs/header.png',
-        url: 'https://michaelsboost.com/Polyrise/',
-        color: 'purple'
-      },
-      {
-        name: 'CamDesk',
-        description: 'Privacy-first webcam studio with photo capture, video recording, Picture-in-Picture, offline support, and PWA installation.',
-        image: 'https://raw.githubusercontent.com/michaelsboost/CamDesk/gh-pages/imgs/screenshot.png',
-        url: 'https://michaelsboost.com/CamDesk',
-        color: 'cyan'
-      },
-      {
         name: 'Budjut',
         description: 'Smart budgeting without the noise. Track income, expenses, savings goals, and financial health privately in your browser.',
         image: 'https://raw.githubusercontent.com/michaelsboost/Budjut/gh-pages/imgs/header.png',
         url: 'https://michaelsboost.com/Budjut/',
         color: 'emerald'
+      },
+      {
+        name: 'Go Vegan',
+        description: 'See what your choices cause.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/govegan/main/imgs/promo.png',
+        url: 'https://michaelsboost.com/govegan/',
+        color: 'rose'
+      },
+      {
+        name: 'Zerra',
+        description: 'Sustainability and zero-waste action for reducing everyday environmental impact.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/Zerra/main/imgs/promo.png',
+        url: 'https://michaelsboost.com/Zerra/',
+        color: 'green'
       },
       {
         name: 'Civilis',
@@ -77,11 +70,88 @@ window.App = function App() {
         color: 'sky'
       },
       {
-        name: 'Compound Calculator',
-        description: 'Compound growth planner for disciplined trading strategies',
-        image: 'https://raw.githubusercontent.com/michaelsboost/CompoundCalculator/main/screenshot.png',
-        url: 'http://michaelsboost.github.io/CompoundCalculator',
-        color: 'orange'
+        name: 'kodeWeave',
+        description: 'A revolutionary live coding playground',
+        image: 'https://raw.githubusercontent.com/michaelsboost/kodeWeave/main/imgs/header.png',
+        url: 'https://michaelsboost.com/kodeWeave/',
+        color: 'yellow'
+      },
+      {
+        name: 'CamDesk',
+        description: 'Privacy-first webcam studio with photo capture, video recording, Picture-in-Picture, offline support, and PWA installation.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/CamDesk/gh-pages/imgs/screenshot.png',
+        url: 'https://michaelsboost.com/CamDesk',
+        color: 'cyan'
+      },
+      {
+        name: 'Urban Forager',
+        description: 'Learn 45+ urban weeds with a plant library, photos, and quizzes covering ID, lookalikes, edibility, medicinal uses, nutrients, and safety.',
+        url: 'https://michaelsboost.com/Urban-Forager/',
+        image: 'https://raw.githubusercontent.com/michaelsboost/Urban-Forager/main/imgs/screenshot.jpeg',
+        color: 'green'
+      },
+      {
+        name: 'Rockford Resilience Hub',
+        description: 'Offline-first community resource hub connecting Rockford residents to food, shelter, aid, health, and resilience resources.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/RockfordResilienceHub/main/imgs/screenshot.jpeg',
+        url: 'https://michaelsboost.com/RockfordResilienceHub/',
+        color: 'violet'
+      },
+      {
+        name: 'The Black Archive',
+        description: 'An open research archive for exploring evidence, testimony, hidden history, and unexplained phenomena.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/TheBlackArchive/main/imgs/promo.png',
+        url: 'https://michaelsboost.com/TheBlackArchive/',
+        color: 'slate'
+      },
+      {
+        name: 'Felz Books',
+        description: 'A free and open knowledge archive preserving books and making information accessible.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/felzbooks/refs/heads/main/imgs/promo.png',
+        url: 'https://michaelsboost.com/felzbooks/',
+        color: 'amber'
+      },
+      {
+        name: 'Motiv8',
+        description: 'Mindset switcher for focus, discipline, resilience, recovery, confidence, and presence with motivational quotes and offline PWA support.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/motiv8/main/imgs/screenshot.jpeg',
+        url: 'https://michaelsboost.com/motiv8/',
+        color: 'lime'
+      },
+      {
+        name: 'RITE',
+        description: 'Minimal workout timer for athletic training',
+        image: 'https://raw.githubusercontent.com/michaelsboost/Rite/gh-pages/imgs/screenshot.jpeg',
+        url: 'http://michaelsboost.github.io/Rite/',
+        color: 'red'
+      },
+      {
+        name: 'The Deck',
+        description: 'Hub for card-based games and conversation apps',
+        image: 'https://raw.githubusercontent.com/michaelsboost/the-deck/main/imgs/screenshot.jpeg',
+        url: 'http://michaelsboost.github.io/the-deck',
+        color: 'yellow'
+      },
+      {
+        name: 'Love, Dad.',
+        description: 'Daily emotional support and confidence-building messages for your child.',
+        url: 'https://michaelsboost.com/lovedad/',
+        image: 'https://raw.githubusercontent.com/michaelsboost/lovedad/main/imgs/header.png',
+        color: 'rose'
+      },
+      {
+        name: '50/50 Experiment',
+        description: 'Probability and randomness simulator exploring streaks, variance, outcomes, and statistical behavior over time.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/5050/main/imgs/screenshot.png',
+        url: 'https://michaelsboost.com/5050/',
+        color: 'rose'
+      },
+      {
+        name: 'Eye Workout',
+        description: 'Eye exercise and visual-relaxation routines for screen-heavy days.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/Eye-Workout/gh-pages/screenshot2.png',
+        url: 'http://michaelsboost.github.io/Eye-Workout',
+        color: 'indigo'
       },
       {
         name: 'ChartDojo',
@@ -105,11 +175,11 @@ window.App = function App() {
         color: 'blue'
       },
       {
-        name: 'AlgoArena',
-        description: 'Strategy testing arena comparing trading bots vs human decisions',
-        image: 'https://raw.githubusercontent.com/michaelsboost/AlgoArena/main/imgs/screenshot.jpeg',
-        url: 'https://michaelsboost.github.io/AlgoArena/',
-        color: 'indigo'
+        name: 'LifeOS',
+        description: 'Personal resilience and life management dashboard.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/LifeOS/main/imgs/screenshot.jpeg',
+        url: 'https://michaelsboost.com/LifeOS/',
+        color: 'teal'
       },
       {
         name: 'The Trading Game',
@@ -117,76 +187,6 @@ window.App = function App() {
         image: 'https://raw.githubusercontent.com/michaelsboost/TheTradingGame/gh-pages/imgs/screenshot.jpeg',
         url: 'https://michaelsboost.github.io/TheTradingGame/',
         color: 'purple'
-      },
-      {
-        name: '50/50 Experiment',
-        description: 'Probability and randomness simulator exploring streaks, variance, outcomes, and statistical behavior over time.',
-        image: 'https://raw.githubusercontent.com/michaelsboost/5050/main/imgs/screenshot.png',
-        url: 'https://michaelsboost.com/5050/',
-        color: 'rose'
-      },
-      {
-        name: 'RITE',
-        description: 'Minimal workout timer for athletic training',
-        image: 'https://raw.githubusercontent.com/michaelsboost/Rite/gh-pages/imgs/screenshot.jpeg',
-        url: 'http://michaelsboost.github.io/Rite/',
-        color: 'red'
-      },
-      {
-        name: 'Eye Workout',
-        description: 'Modern implementation of Bates Method for digital eye strain relief',
-        image: 'https://raw.githubusercontent.com/michaelsboost/Eye-Workout/gh-pages/screenshot2.png',
-        url: 'http://michaelsboost.github.io/Eye-Workout',
-        color: 'indigo'
-      },
-      {
-        name: 'The Deck',
-        description: 'Hub for card-based games and conversation apps',
-        image: 'https://raw.githubusercontent.com/michaelsboost/the-deck/main/imgs/screenshot.jpeg',
-        url: 'http://michaelsboost.github.io/the-deck',
-        color: 'yellow'
-      },
-      {
-        name: 'Urban Forager',
-        description: 'Learn 45+ urban weeds with a plant library, photos, and quizzes covering ID, lookalikes, edibility, medicinal uses, nutrients, and safety.',
-        url: 'https://michaelsboost.com/Urban-Forager/',
-        image: 'https://raw.githubusercontent.com/michaelsboost/Urban-Forager/main/imgs/screenshot.jpeg',
-        color: 'green'
-      },
-      {
-        name: 'Love, Dad.',
-        description: 'Daily emotional support and confidence-building messages for your child.',
-        url: 'https://michaelsboost.com/lovedad/',
-        image: 'https://raw.githubusercontent.com/michaelsboost/lovedad/main/imgs/header.png',
-        color: 'rose'
-      },
-      {
-        name: 'Character Party',
-        description: 'Creative brainstorming tool for generating unique character combinations.',
-        image: 'https://raw.githubusercontent.com/michaelsboost/Character-Party/gh-pages/imgs/screenshot.png',
-        url: 'https://michaelsboost.github.io/Character-Party/',
-        color: 'pink'
-      },
-      {
-        name: 'Decision Wheel',
-        description: 'A mystical yes/no spinner with GSAP, Howler, and confetti.',
-        url: 'https://michaelsboost.com/DecisionWheel/',
-        image: 'https://raw.githubusercontent.com/michaelsboost/DecisionWheel/main/imgs/screenshot.jpeg',
-        color: 'purple'
-      },
-      {
-        name: 'Motiv8',
-        description: 'Mindset switcher for focus, discipline, resilience, recovery, confidence, and presence with motivational quotes and offline PWA support.',
-        image: 'https://raw.githubusercontent.com/michaelsboost/motiv8/main/imgs/screenshot.jpeg',
-        url: 'https://michaelsboost.com/motiv8/',
-        color: 'lime'
-      },
-      {
-        name: 'Rockford Resilience Hub',
-        description: 'Offline-first community resource hub connecting Rockford residents to food, shelter, aid, health, and resilience resources.',
-        image: 'https://raw.githubusercontent.com/michaelsboost/RockfordResilienceHub/main/imgs/screenshot.jpeg',
-        url: 'https://michaelsboost.com/RockfordResilienceHub/',
-        color: 'violet'
       }
     ],
     books: [
