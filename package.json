@@ -5,12 +5,11 @@
   "type": "module",
   "scripts": {
     "build:css": "postcss src/bundle.css -o dist/bundle.css",
-    "build:js": "rollup -c",
+    "build:js": "rollup -c && terser dist/script.js -c -m -o dist/script.js",
     "build": "npm run build:css && npm run build:js",
     "serve": "http-server -c-1 -p 8081"
   },
   "devDependencies": {
-    "@rollup/plugin-terser": "^0.4.4",
     "autoprefixer": "^10.4.19",
     "cssnano": "^7.0.2",
     "http-server": "^14.1.1",
