@@ -85,9 +85,9 @@ window.App = function App() {
       },
       {
         name: 'Urban Forager',
-        description: 'Learn 45+ urban weeds with a plant library, photos, and quizzes covering ID, lookalikes, edibility, medicinal uses, nutrients, and safety.',
+        description: 'Explore 95 wild plants, trees, shrubs, vines, and fungi with photos and detailed dossiers covering identification, lookalikes, edibility, nutrition, medicinal and traditional uses, safety, ethnobotany, and responsible foraging.',
         url: 'https://michaelsboost.com/Urban-Forager/',
-        image: 'https://raw.githubusercontent.com/michaelsboost/Urban-Forager/main/imgs/screenshot.jpeg',
+        image: 'https://raw.githubusercontent.com/michaelsboost/Urban-Forager/main/imgs/promo.png',
         color: 'green'
       },
       {
