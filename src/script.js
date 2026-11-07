@@ -63,6 +63,13 @@ window.App = function App() {
         color: 'green'
       },
       {
+        name: 'Femscape',
+        description: 'An educational hub for understanding feminism, gender equality, history, and social issues through research, empathy, and practical action.',
+        image: 'https://raw.githubusercontent.com/michaelsboost/femscape/main/imgs/promo.png',
+        url: 'https://michaelsboost.com/femscape/',
+        color: 'purple'
+      },
+      {
         name: 'Civilis',
         description: 'Monte Carlo civilization simulator modeling collapse risk, sustainability, resilience, governance systems, and Kardashev-scale energy progression.',
         image: 'https://raw.githubusercontent.com/michaelsboost/Civilis/main/imgs/short.png',
