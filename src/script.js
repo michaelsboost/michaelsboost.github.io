@@ -92,7 +92,7 @@ window.App = function App() {
       },
       {
         name: 'Urban Forager',
-        description: 'Explore 95 wild plants, trees, shrubs, vines, and fungi with photos and detailed dossiers covering identification, lookalikes, edibility, nutrition, medicinal and traditional uses, safety, ethnobotany, and responsible foraging.',
+        description: 'Explore 174 plants, trees, shrubs, vines, and fungi with photos and detailed dossiers covering identification, lookalikes, edibility, nutrition, medicinal and Indigenous uses, ethnobotany, and safety. Learn responsible foraging through 12 ethical principles, explore educational videos, and download printable field guides.',
         url: 'https://michaelsboost.com/Urban-Forager/',
         image: 'https://raw.githubusercontent.com/michaelsboost/Urban-Forager/main/imgs/promo.png',
         color: 'green'
